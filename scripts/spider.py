@@ -74,7 +74,7 @@ class Singer(NetEase):
         curr_albums = soup.find_all(
             'div', attrs={'class': 'u-cover u-cover-alb3'})
 
-        for album in curr_albums[24:]:
+        for album in curr_albums:
             albums_id = int(album.find('a', attrs={'class': 'msk'})[
                                 'href'].split('=')[-1])
             self._album_id_list.append(albums_id)
