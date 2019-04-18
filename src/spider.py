@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+import os
 
 import json
 import re
@@ -294,5 +295,10 @@ def self_check(con):
 if __name__ == '__main__':
     singer_id = 2116
     eason_chan = Singer(singer_id)
-    self_check(eason_chan.to_json())
-    print(json.dumps(eason_chan.to_json()))
+
+    json_src = os.path.join('src', 'json_src')
+    if not os.path.isexists(json_src):
+        os.makedirs(json_src)
+
+    with open(os.path.join(json_src, f'{singer_id}.json'), 'w') as fp:
+        json.dump(eason_chan.to_json(), fp, indent=4, sort_keys=True)
