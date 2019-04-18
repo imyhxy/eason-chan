@@ -335,7 +335,7 @@ if __name__ == '__main__':
     eason_chan = Singer(singer_id)
 
     json_src = os.path.join('src', 'json_src')
-    if not os.path.isexists(json_src):
+    if not os.path.exists(json_src):
         os.makedirs(json_src)
 
     with open(os.path.join(json_src, f'{singer_id}.json'), 'w') as fp:
