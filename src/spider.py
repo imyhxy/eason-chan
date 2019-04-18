@@ -1,18 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import os
+from collections import namedtuple
 
 import json
+import os
 import re
-from Lib.base64 import encodestring, encodebytes, decodebytes
-from base64 import b64encode, b64decode
-from collections import namedtuple
+from base64 import encodebytes, decodebytes
+from bs4 import BeautifulSoup
 from pprint import pprint
+from tqdm import tqdm
 from urllib import request
 from urllib.request import Request
-
-from bs4 import BeautifulSoup
-from tqdm import tqdm
 
 
 class NetEase(object):
