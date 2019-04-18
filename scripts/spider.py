@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 from collections import namedtuple
+from time import sleep
 
 import json
 import os
@@ -8,9 +9,9 @@ import re
 from base64 import encodebytes, decodebytes
 from bs4 import BeautifulSoup
 from pprint import pprint
-from tqdm import tqdm
 from urllib import request
 from urllib.request import Request
+from urllib.error import URLError
 
 
 class NetEase(object):
@@ -18,11 +19,23 @@ class NetEase(object):
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'}
 
     def get_url(self, url, decode=True):
-        req = Request(url, headers=self.head)
+        self.req = Request(url, headers=self.head)
+        ret = ''
+        for _ in range(3):
+            try:
+                ret = self._read_url(decode)
+                break
+            except URLError:
+                print('WARNING: timeout at {:s}'.format(url))
+                sleep(30)
+        return ret
+
+    def _read_url(self, decode):
         if decode:
-            return request.urlopen(req).read().decode('utf-8')
+            return request.urlopen(self.req).read().decode('utf-8')
         else:
-            return request.urlopen(req).read()
+            return request.urlopen(self.req).read()
+
 
     def to_json(self):
         raise NotImplementedError
@@ -45,11 +58,11 @@ class Singer(NetEase):
         self.get_all_albums_id()
 
         self.albums = []
-        pbar = tqdm(self._album_id_list)
-        for album_id in pbar:
-            album = Album(album_id)
-            pbar.set_description(
-                'Analysis album {:s}({:d}/{:d})'.format(album.name, album_id, len(self._album_id_list)))
+        num_albums = len(self._album_id_list)
+        for idx, album_id in enumerate(self._album_id_list):
+            album = Album(album_id, eager=False)
+            print('Analyzed album: {:s} ({:d}/{:d}).'.format(album.name, idx + 1, num_albums))
+            album.get_info()
             self.albums.append(album)
 
     def get_all_albums_id(self):
@@ -62,7 +75,7 @@ class Singer(NetEase):
         curr_albums = soup.find_all(
             'div', attrs={'class': 'u-cover u-cover-alb3'})
 
-        for album in curr_albums:
+        for album in curr_albums[24:]:
             albums_id = int(album.find('a', attrs={'class': 'msk'})[
                                 'href'].split('=')[-1])
             self._album_id_list.append(albums_id)
@@ -93,44 +106,57 @@ class Singer(NetEase):
 class Album(NetEase):
     def __init__(self, album_id, eager=True):
         self.id = album_id
+        self.url = 'https://music.163.com/album?id=' + str(self.id)
+        content = self.get_url(self.url)
+        self.soup = BeautifulSoup(content, 'html.parser')
+        self.name = self.soup.find('h2', attrs={'class': 'f-ff2'}).text.strip()
 
         if eager:
-            self.url = 'https://music.163.com/album?id=' + str(album_id)
-            content = self.get_url(self.url)
-            soup = BeautifulSoup(content, 'html.parser')
+            self.get_info()
 
-            self.name = soup.find('h2', attrs={'class': 'f-ff2'}).text.strip()
-            self._img_link = soup.find('meta', attrs={'property': 'og:image'})['content']
-            self._img_type = self._img_link.split('.')[-1]
-            self.img = self.get_url(self._img_link, decode=False)
-            self.singers = [s.strip() for s in soup.find(
-                'b', text='歌手：').next_sibling['title'].split('/')]
-            self.time = soup.find('b', text='发行时间：').next_sibling.strip()
-            self.company = soup.find('b', text='发行公司：').next_sibling.strip()
-            if soup.find('div', attrs={'id': 'album-desc-more'}):
-                self.description = [s.text.strip() for s in soup.find(
-                    'div', attrs={'id': 'album-desc-more'}).find_all('p')]
-            else:
-                self.description = [s.text.strip() for s in soup.find(
-                    'div', attrs={'id': 'album-desc-dot'}).find_all('p')]
-            self.num_comments = int(soup.find('span', id='cnt_comment_count').text.strip())
-            self.num_shared = int(soup.find('a', attrs={'class': 'u-btni u-btni-share'})['data-count'])
-            self.num_songs = int(soup.find('span', class_='sub s-fc3',
-                                           text=re.compile('\d+.{2}')).text.strip()[:-2])
+    def get_info(self):
+        self._img_link = self.soup.find('meta', attrs={'property': 'og:image'})['content']
+        self._img_type = self._img_link.split('.')[-1]
+        self.img = self.get_url(self._img_link, decode=False)
+        self.singers = [s.strip() for s in self.soup.find(
+            'b', text='歌手：').next_sibling['title'].split('/')]
 
-            jsong = json.loads(soup.find('textarea', id='song-list-pre-data').text)
-            SongInfo = namedtuple('SongInfo', ['id', 'duration', 'score'])
-            self._songs_info = [SongInfo(s['id'], s['duration'], s['score']) for s in jsong]
-            self.get_all_songs()
+        try:
+            self.time = self.soup.find('b', text='发行时间：').next_sibling.strip()
+        except AttributeError:
+            self.time = ''
 
-    def get_all_songs(self):
+        try:
+            self.company = self.soup.find('b', text='发行公司：').next_sibling.strip()
+        except AttributeError:
+            self.company = ''
+
+        if self.soup.find('div', attrs={'id': 'album-desc-more'}):
+            self.description = [s.text.strip() for s in self.soup.find(
+                'div', attrs={'id': 'album-desc-more'}).find_all('p')]
+        elif self.soup.find('div', attrs={'id': 'album-desc-dot'}):
+            self.description = [s.text.strip() for s in self.soup.find(
+                'div', attrs={'id': 'album-desc-dot'}).find_all('p')]
+        else:
+            self.description = ''
+        self.num_comments = int(self.soup.find('span', id='cnt_comment_count').text.strip())
+        self.num_shared = int(self.soup.find('a', attrs={'class': 'u-btni u-btni-share'})['data-count'])
+        self.num_songs = int(self.soup.find('span', class_='sub s-fc3',
+                                       text=re.compile('\d+.{2}')).text.strip()[:-2])
+
+        jsong = json.loads(self.soup.find('textarea', id='song-list-pre-data').text)
+        SongInfo = namedtuple('SongInfo', ['id', 'duration', 'score'])
+        self._songs_info = [SongInfo(s['id'], s['duration'], s['score']) for s in jsong]
+        self._get_all_songs()
+
+    def _get_all_songs(self):
         self.songs = []
 
-        pbar = tqdm(self._songs_info)
-        for s in pbar:
+        num_song = len(self._songs_info)
+        for idx, s in enumerate(self._songs_info):
             song = Song(s.id, s.duration, s.score, self.time)
-            pbar.set_description('Fetched song {:s}'.format(song.name))
             self.songs.append(song)
+            print('\tFetched song: {:s} ({:d}/{:d}).'.format(song.name, idx + 1, num_song))
 
     def to_json(self):
         return {
@@ -226,11 +252,17 @@ class Lyric(NetEase):
             self.singer = ''
             self.composer = ''
             self.songwriter = ''
+            self.arrangement = ''
 
             self.url = 'http://music.163.com/api/song/lyric?os=pc&id=' + \
                        str(music_id) + '&lv=-1&kv=-1&tv=-1'
             content = self.get_url(self.url)
-            lyric = '' if json.loads(content).get('nolyric', False) else json.loads(content)['lrc']['lyric']
+            if json.loads(content).get('nolyric', False):
+                lyric = '纯音乐'
+            elif json.loads(content).get('uncollected', False):
+                lyric = '无歌词'
+            else:
+                lyric = json.loads(content)['lrc']['lyric']
 
             pat = re.compile(r'\[[\w\d:.]+\]')
             lyric = re.sub(pat, '', lyric)
@@ -246,6 +278,9 @@ class Lyric(NetEase):
                 elif s.startswith('歌手'):
                     s = s.strip(' 歌手:： ')
                     self.singer = s
+                elif s.startswith('编曲'):
+                    s = s.strip(' 编曲:： ')
+                    self.arrangement = s
                 elif '：' in s:
                     continue
                 else:
@@ -259,6 +294,7 @@ class Lyric(NetEase):
             'singer': self.singer,
             'composer': self.composer,
             'songwriter': self.songwriter,
+            'arrangement': self.arrangement,
             'lyric': self.lyric
         }
 
@@ -271,6 +307,7 @@ class Lyric(NetEase):
         ly.singer = json_con['singer']
         ly.composer = json_con['composer']
         ly.songwriter = json_con['songwriter']
+        ly.arrangement = json_con['arrangement']
         ly.lyric = json_con['lyric']
 
         return ly
