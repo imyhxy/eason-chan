@@ -107,8 +107,12 @@ class Album(NetEase):
                 'b', text='歌手：').next_sibling['title'].split('/')]
             self.time = soup.find('b', text='发行时间：').next_sibling.strip()
             self.company = soup.find('b', text='发行公司：').next_sibling.strip()
-            self.description = [s.text.strip() for s in soup.find(
-                'div', attrs={'id': 'album-desc-more'}).find_all('p')]
+            if soup.find('div', attrs={'id': 'album-desc-more'}):
+                self.description = [s.text.strip() for s in soup.find(
+                    'div', attrs={'id': 'album-desc-more'}).find_all('p')]
+            else:
+                self.description = [s.text.strip() for s in soup.find(
+                    'div', attrs={'id': 'album-desc-dot'}).find_all('p')]
             self.num_comments = int(soup.find('span', id='cnt_comment_count').text.strip())
             self.num_shared = int(soup.find('a', attrs={'class': 'u-btni u-btni-share'})['data-count'])
             self.num_songs = int(soup.find('span', class_='sub s-fc3',
