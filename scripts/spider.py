@@ -22,7 +22,7 @@ class NetEase(object):
     def get_url(self, url, decode=True):
         urlfile = self.url_to_file(url)
 
-        urlpath = os.path.join('src', 'cache', urlfile)
+        urlpath = os.path.join('src', 'cached', urlfile)
         if os.path.exists(urlpath):
             with open(urlpath, 'rb') as f:
                 return pickle.load(f)
@@ -33,9 +33,11 @@ class NetEase(object):
             try:
                 ret = self._read_url(decode)
 
+                if not os.path.exists(os.path.join('script', 'cached')):
+                    os.makedirs(os.path.join('script', 'cached'))
+
                 with open(urlpath, 'wb') as f:
                     f.write(ret)
-
                 break
             except URLError:
                 print('WARNING: timeout at {:s}'.format(url))
