@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from collections import namedtuple
-from time import sleep
-
 import json
 import os
 import re
 from base64 import encodebytes, decodebytes
-from bs4 import BeautifulSoup
+from collections import namedtuple
 from pprint import pprint
+from time import sleep
 from urllib import request
-from urllib.request import Request
 from urllib.error import URLError
+from urllib.request import Request
+
+from bs4 import BeautifulSoup
 
 
 class NetEase(object):
@@ -35,7 +35,6 @@ class NetEase(object):
             return request.urlopen(self.req).read().decode('utf-8')
         else:
             return request.urlopen(self.req).read()
-
 
     def to_json(self):
         raise NotImplementedError
@@ -142,7 +141,7 @@ class Album(NetEase):
         self.num_comments = int(self.soup.find('span', id='cnt_comment_count').text.strip())
         self.num_shared = int(self.soup.find('a', attrs={'class': 'u-btni u-btni-share'})['data-count'])
         self.num_songs = int(self.soup.find('span', class_='sub s-fc3',
-                                       text=re.compile('\d+.{2}')).text.strip()[:-2])
+                                            text=re.compile('\d+.{2}')).text.strip()[:-2])
 
         jsong = json.loads(self.soup.find('textarea', id='song-list-pre-data').text)
         SongInfo = namedtuple('SongInfo', ['id', 'duration', 'score'])
