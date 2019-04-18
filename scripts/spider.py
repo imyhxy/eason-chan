@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import json
 import os
+import pickle
 import re
 from base64 import encodebytes, decodebytes
 from collections import namedtuple
@@ -19,11 +20,22 @@ class NetEase(object):
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'}
 
     def get_url(self, url, decode=True):
+        urlfile = self.url_to_file(url)
+
+        urlpath = os.path.join('src', 'cache', urlfile)
+        if os.path.exists(urlpath):
+            with open(urlpath, 'rb') as f:
+                return pickle.load(f)
+
         self.req = Request(url, headers=self.head)
         ret = ''
         for _ in range(3):
             try:
                 ret = self._read_url(decode)
+
+                with open(urlpath, 'wb') as f:
+                    f.write(ret)
+
                 break
             except URLError:
                 print('WARNING: timeout at {:s}'.format(url))
@@ -38,6 +50,20 @@ class NetEase(object):
 
     def to_json(self):
         raise NotImplementedError
+
+    def url_to_file(self, url):
+        var_dict = {
+            ':': '_',
+            '&': '_',
+            '/': '_',
+            '=': '_',
+            '?': '_',
+            '%': '_',
+            '+': '_',
+            '-': '_'
+         }
+
+        return url.translate(var_dict)
 
 
 class Singer(NetEase):
@@ -334,7 +360,7 @@ if __name__ == '__main__':
     singer_id = 2116
     eason_chan = Singer(singer_id)
 
-    json_src = os.path.join('src', 'json_src')
+    json_src = os.path.join('script', 'json_src')
     if not os.path.exists(json_src):
         os.makedirs(json_src)
 
