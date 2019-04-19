@@ -1,6 +1,5 @@
 # [第一类接触(Live) - live](https://music.163.com/song?id=66875)
 
-* 
 * 翻阅手机 前世我见过你
 * 跨过世纪 天天追你索晒气
 * 一旦跳起 埋怨我吓怕你
@@ -21,6 +20,7 @@
 * 我消息灵通
 * (from California to Guangzhou and Yokohama to Cheung Chau)
 * 明日就要抱起你 我想起都失控
+* 
 * 失事客机 离你有数百里
 * 不用送死收起所有我武器
 * 假若有机谁也会占有你
@@ -44,7 +44,6 @@
 * 我消息灵通
 * (from California to Guangzhou and Yokohama to Cheung Chau)
 * 明日就要抱起你 我想起都失控
-* 
 
 
 ---

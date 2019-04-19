@@ -2,6 +2,8 @@
 
 * 作词：岑宁儿
 * 作曲：岑宁儿
+*
+*
 * Last night I had a dream
 * That I was on an endless run
 * I wasn’t tired I wasn’t scared
@@ -24,7 +26,6 @@
 * or were you running away somehow
 * I woke up both happy and sad
 * A little sorry a little glad
-* 
 
 
 ---

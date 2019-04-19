@@ -14,6 +14,7 @@
 * He'd give up all lover's comforts
 * And sleep out in the rain
 * If she said that's the way it ought to be
+* 
 * When a man loves a woman
 * I'll give you everything I've got
 * Trying to hold on to your precious love

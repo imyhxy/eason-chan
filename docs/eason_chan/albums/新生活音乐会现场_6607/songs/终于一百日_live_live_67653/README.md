@@ -25,15 +25,15 @@
 * Coz I miss you finally
 * 敢于抛开 重建我天地
 * Coz I miss you finally
-* 终于不怕 能再次回味
-* Coz I miss you finally
-* 敢于抛开 重建我天地
-* Coz I miss you finally
-* 终于不怕 能再次回味
-* Coz I miss you finally
-* 敢于抛开 重建我天地
-* Coz I miss you finally
 * 
+* 终于不怕 能再次回味
+* Coz I miss you finally
+* 敢于抛开 重建我天地
+* Coz I miss you finally
+* 终于不怕 能再次回味
+* Coz I miss you finally
+* 敢于抛开 重建我天地
+* Coz I miss you finally
 
 
 ---

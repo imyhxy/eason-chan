@@ -1,7 +1,7 @@
 # [今日 (Live In Hong Kong, 2013)](https://music.163.com/song?id=28160886)
 
-* 
 * [ti:今日(Live In Hong Kong, 2013)]
+* 
 * [al:Eason's Life 陈奕迅2013演唱会]
 * [by:九九Lrc歌词网～www.99Lrc.net]
 * 多谢大家~ 多谢！
@@ -55,7 +55,6 @@
 * let me hear you
 * （欢呼）
 * yep!thank you
-* 
 
 
 ---

@@ -1,6 +1,5 @@
 # [Welcome to the future](https://music.163.com/song?id=64368)
 
-* 
 * [ti:Welcome to the future]
 * [ar:陈奕迅/萨顶顶]
 * [al:Taste the Atmosphere]

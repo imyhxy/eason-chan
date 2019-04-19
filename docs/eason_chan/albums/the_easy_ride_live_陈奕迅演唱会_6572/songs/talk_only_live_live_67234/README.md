@@ -1,6 +1,5 @@
 # [Talk Only(Live) - live](https://music.163.com/song?id=67234)
 
-* 
 * 其实呢
 * 我想在没开始继续下去之前
 * 有些东西想借大家的掌声

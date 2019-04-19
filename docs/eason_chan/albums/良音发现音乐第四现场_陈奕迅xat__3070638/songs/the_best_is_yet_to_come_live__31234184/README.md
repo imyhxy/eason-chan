@@ -1,6 +1,5 @@
 # [The Best Is Yet To Come(Live)](https://music.163.com/song?id=31234184)
 
-* 
 * 永远有一个吻未尝
 * 有些烛光未燃亮
 * 若爱太苦要落糖

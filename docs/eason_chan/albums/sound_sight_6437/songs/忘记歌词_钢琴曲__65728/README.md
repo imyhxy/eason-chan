@@ -1,6 +1,5 @@
 # [忘记歌词(钢琴曲)](https://music.163.com/song?id=65728)
 
-* 
 * 忘记歌词陈奕迅
 * 并没甚么我读的科不爱我
 * 我也惯了不想哭太多叹息奈何
@@ -27,7 +26,6 @@
 * fa  fa  fa  fa　mi  mi  ri  do  ri　do  ri  la  so
 * mi  mi  so　ri  ri  mi  ri  do  do  la
 * 谁能笑我失败后没放弃
-* 
 
 
 ---

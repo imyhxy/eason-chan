@@ -2,8 +2,8 @@
 
 * 作词：陈奂仁
 * 作曲：陈奂仁
-* 
-* 
+*
+*
 * yo
 * yo i got somethin' to say
 * you know sometimes
@@ -55,7 +55,6 @@
 * All you do is get pissed at me
 * Damn
 * Take it easy
-* 
 
 
 ---

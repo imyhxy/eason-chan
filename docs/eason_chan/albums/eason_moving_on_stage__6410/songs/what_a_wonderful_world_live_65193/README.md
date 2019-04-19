@@ -2,6 +2,8 @@
 
 * 作词：George Weiss
 * 作曲：Robert Thiele
+*
+*
 * I see trees of green
 * red roses too
 * I see them bloom
@@ -27,7 +29,6 @@
 * than I'll ever know
 * And I think to myself
 * what a wonderful world
-* 
 
 
 ---

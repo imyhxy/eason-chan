@@ -1,6 +1,5 @@
 # [第一类接触](https://music.163.com/song?id=30569084)
 
-* 
 * 翻阅手机前世我见过你
 * 跨过世纪天天追你索晒气
 * 一旦跳起埋怨我吓怕你
@@ -44,7 +43,6 @@
 * 我消息灵通
 * （from California to Guangzhou and Yokohama to Cheung Chau）
 * 明日就要抱起你我想起都失控
-* 
 
 
 ---

@@ -1,6 +1,5 @@
 # [Shall We Dance(Live) - live](https://music.163.com/song?id=67168)
 
-* 
 * 长裙摇曳透香
 * 寂寞又换了形象
 * 提琴摇动怨曲

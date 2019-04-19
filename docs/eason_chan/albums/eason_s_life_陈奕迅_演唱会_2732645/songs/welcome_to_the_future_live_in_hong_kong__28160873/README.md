@@ -3,24 +3,29 @@
 * We ride the wings of time
 * 
 * To our future we will fly
+* 
 * Higher and higher now
 * 
 * Our love take us higher now
+* 
 * Fly....
 * 
 * Dreaming....
+* 
 * Waking....
 * 
 * Higher now....
+* 
 * We ride the wings of time
 * 
 * To our future we will fly
 * Higher and higher now
+* 
 * Our love take us higher now
 * 
 * Close your eyes
-* Fly with me
 * 
+* Fly with me
 
 
 ---

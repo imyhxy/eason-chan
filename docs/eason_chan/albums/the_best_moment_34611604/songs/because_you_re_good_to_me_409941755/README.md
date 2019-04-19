@@ -2,12 +2,14 @@
 
 * 作词：陈奂仁/黄振轩
 * 作曲：陈奂仁
-* 
+*
+*
 * Because you're good to me, babe, i know.
 * That you're up to something and i don't like it.
 * Because you're good to me, babe, i know.
 * You're no good.
 * It's no good to be in love with you again.
+* 
 * 当时分手之后,
 * 多么心痛.
 * 你却还能够说,
@@ -27,6 +29,7 @@
 * Because you're good to me, babe, i know.
 * You're no good.
 * It's no good to be in love with you again.
+* 
 * Love with you again.
 * 
 * 昨晚跟好朋友,
@@ -42,6 +45,7 @@
 * No baby, no baby,别到现在才来对我说,
 * 你后悔了.
 * And ask me for more.
+* 
 * Because you're good to me, babe, i know.
 * That you're up to something and i don't like it.
 * Because you're good to me, babe, i know.
@@ -49,6 +53,7 @@
 * It's no good to be in love with you again.
 * 
 * hei~
+* 
 * Because you're good to me, babe, i know.
 * That you're up to something and i don't like it.
 * Because you're good to me, babe, i know.
@@ -60,12 +65,12 @@
 * Because you're good to me, babe, i know.
 * You're no good.
 * It's no good to be in love with you again.
+* 
 * Because you're good to me, babe, i know.
 * That you're up to something and i don't like it.
 * Because you're good to me, babe, i know.
 * You're no good.
 * It's no good to be in love with you again.
-* 
 
 
 ---

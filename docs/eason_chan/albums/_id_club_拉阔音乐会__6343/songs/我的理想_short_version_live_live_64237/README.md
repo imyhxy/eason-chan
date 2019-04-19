@@ -1,6 +1,5 @@
 # [我的理想(Short Version)(Live) - live](https://music.163.com/song?id=64237)
 
-* 
 * 准我尽情地唱 请举手拍掌
 * 能令你欣赏 台上做偶像
 * 声线极洪亮 可跳出花样

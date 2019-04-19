@@ -37,7 +37,6 @@
 * Look how they shine for you
 * And all the things that you do
 * Yeah, they were all yellow.
-* 
 
 
 ---

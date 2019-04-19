@@ -2,6 +2,8 @@
 
 * 作词：陈少琪/庄冬昕
 * 作曲：孙耀威
+*
+*
 * guiding through a way in the night
 * Rainbows in the sky neon lights
 * the Road is ahead take us to all new heights
@@ -10,6 +12,7 @@
 * Standing tall with pride
 * culture side by side
 * Living in a place where we can reach for the sky
+* 
 * We can all hold hands
 * with the world we stand
 * Living up our dreams and hope
@@ -38,6 +41,7 @@
 * you will realize
 * The city that will change the way you are make you fly
 * Live a better life
+* 
 * (We are the life side by side)
 * Live a better life
 * (let's find a way side by side)
@@ -45,8 +49,6 @@
 * (We will rise up side by side)
 * City always by your side
 * ye
-* 
-* 
 
 
 ---

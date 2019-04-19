@@ -1,8 +1,10 @@
 # [狂热革命](https://music.163.com/song?id=65471)
 
 * 作词：陈奕迅/LAW 少/CHAN/DAVY
-* 
+*
+*
 * [作曲:陈奕迅,Davy Chan]
+* 
 * 来 热情奔放不要拘礼
 * 来 闷烦忧困 别再提
 * 

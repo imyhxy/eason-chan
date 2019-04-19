@@ -30,7 +30,6 @@
 * 如听开首 Pop Song 一针见血
 * 仲押埋韵 逐个字 串做故事
 * 终於写好我只 Sad~Sad~My Sad Song~
-* 
 
 
 ---

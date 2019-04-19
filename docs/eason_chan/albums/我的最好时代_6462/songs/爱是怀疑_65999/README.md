@@ -2,6 +2,8 @@
 
 * 作词：陈奂仁
 * 作曲：陈奂仁
+*
+*
 * yo
 * yo i got somethin' to say
 * you know sometimes
@@ -16,6 +18,7 @@
 * cus sometimes
 * you just gotta put things in perspective
 * then maybe you can understand
+* 
 * like why we're doing the stuff we're doing to each other
 * and sometimes
 * you just gotta learn to take it easy
@@ -51,6 +54,7 @@
 * 爱能叛逆
 * So 别把这游戏看的太仔细
 * No no
+* 
 * it's like sometimes i don't even know who i am anymore
 * can't see what's the point of being in love anymore
 * it's a game what a shame
@@ -89,7 +93,6 @@
 * 爱能叛逆
 * So 别把这游戏看的太仔细
 * No no
-* 
 
 
 ---

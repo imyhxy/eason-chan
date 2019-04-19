@@ -1,6 +1,5 @@
 # [玛利奥派对(Remix Edition) - remix](https://music.163.com/song?id=65491)
 
-* 
 * Oh
 * Oh
 * Oh

@@ -2,6 +2,8 @@
 
 * 作词：周耀辉
 * 作曲：古驰/罗永业/舒文
+*
+*
 * Love is a mystery to me
 * She was once here,and now she's someone
 * that I could not bear
@@ -13,6 +15,7 @@
 * 即使可素脸 可找到替身
 * 继续 渴望年轻 并 渴望前看
 * 往事没言语 在皮下呼吸
+* 
 * 要到哪里 会碰不到故人
 * 要在哪片大镜中发现我没有遗憾
 * 
@@ -20,6 +23,7 @@
 * 能藏下多少的亲爱 想不到哪段最吸引
 * 在大笑後哭泣 熟悉过然後陌生
 * 但并未陌路 在皮肤碰面 是皱纹
+* 
 * All the burning roses
 * Filled up with ashes
 * Crying out loud but no time for condolences
@@ -30,6 +34,7 @@
 * 岁月极微细 从皮上渗入
 * 要到哪里 见每一个故人
 * 要在哪片大镜中炫耀我没法再生
+* 
 * 从没有抛不开的一种吻 难以过去的叫灵魂
 * 能藏下多少的亲爱 想不到哪段最吸引
 * 在大笑後哭泣 熟悉过然後陌生
@@ -39,12 +44,12 @@
 * 能藏下多少的相信 可相信以後更吸引
 * 未做到亦一生 或者我才是陌生
 * 但并未陌路 在皮肤碰面 是皱纹
+* 
 * Drifing alone, on my own
 * Be it a car or a shooting star
 * Its glare finally came to the end of something
 * I could not bear
 * Those were the thing that were hidden under my skin
-* 
 
 
 ---

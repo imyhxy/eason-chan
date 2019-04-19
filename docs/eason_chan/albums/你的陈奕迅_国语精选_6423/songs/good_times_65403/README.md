@@ -2,6 +2,8 @@
 
 * 作词：陈伟/于光中
 * 作曲：陈伟
+*
+*
 * （hey you had a good time right? so did i）
 * 不必算太清楚，心里就明白。
 * 周一到周五不过
@@ -75,7 +77,6 @@
 * 不管别人觉得 快乐就是规则
 * got to have a good time
 * it's party time
-* 
 
 
 ---

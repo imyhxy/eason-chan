@@ -1,6 +1,5 @@
 # [美丽有罪 (Brandon Vs Loopmusic Mix)](https://music.163.com/song?id=28613421)
 
-* 
 * I Coming  I Coming  I Coming  I Coming  I Coming
 * I Coming  I Coming  I Coming  I Coming  I Coming
 * I Coming  I Coming  I Coming  I Coming  I Coming

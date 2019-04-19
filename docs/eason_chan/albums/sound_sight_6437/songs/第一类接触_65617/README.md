@@ -19,7 +19,6 @@
 * (from Alabama to Iran and Barcelona To Iraq)
 * 我消息灵通
 * (from California to Guangzhou and Yokohama to Cheung Chau)
-* 
 
 
 ---

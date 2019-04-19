@@ -2,6 +2,8 @@
 
 * 作词：舒文@Zoo Music
 * 作曲：舒文@Zoo Music
+*
+*
 * While this Christmas
 * I am falling like snowflakes at your door
 * As my guardian angel's singing for someone else
@@ -17,8 +19,6 @@
 * This song is something you never care for
 * This is my Private Christmas song
 * This is my Private Christmas Song
-* 
-* 
 
 
 ---

@@ -360,24 +360,36 @@ class Song(NetEase):
         with open(so_readme, 'w') as f:
             ric = self.ric
             f.write(f'# [{self.name}]({self.url})\n\n')
+
+            title_flag = False
             if ric.singer:
                 f.write(f'* 歌手：{ric.singer}\n')
+                title_flag = True
             if ric.songwriter:
                 f.write(f'* 作词：{ric.songwriter}\n')
+                title_flag = True
             if ric.composer:
                 f.write(f'* 作曲：{ric.composer}\n')
+                title_flag = True
             if ric.arrangement:
                 f.write(f'* 编曲：{ric.arrangement}\n')
+                title_flag = True
+            if title_flag:
+                f.write('*\n*\n')
 
             flag = False
-            for line in ric.lyric:
-                if not line:
-                    if flag:
-                        flag = False
+            for idx, line in enumerate(ric.lyric):
+                if line.strip() == '':
+                    if idx == len(ric.lyric) - 1:
                         continue
+                    if flag and ric.lyric[idx + 1] != '':
+                        f.write('* {:s}\n'.format(line.strip()))
+                        flag = False
                     else:
-                        flag = True
-                f.write('* {:s}\n'.format(line.strip()))
+                        continue
+                else:
+                    f.write('* {:s}\n'.format(line.strip()))
+                    flag = True
 
             f.write('\n\n---\n\n')
             f.write('## Appendix\n\n')
@@ -519,6 +531,5 @@ def main(singer_id, fetch=True, build_doc=True):
 
 if __name__ == '__main__':
     singer_id = 2116  # eason chan
-    # singer_id = 5781  # chou
     main(singer_id, fetch=False)
 

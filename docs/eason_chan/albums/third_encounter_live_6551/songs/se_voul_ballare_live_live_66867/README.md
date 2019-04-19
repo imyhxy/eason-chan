@@ -26,7 +26,6 @@
 * tutte le macchine rovesciero.
 * tutte le macchine rovesciero.
 * rovesciero,rovesciero...
-* 
 
 
 ---

@@ -2,6 +2,8 @@
 
 * 作词：Russell Harris
 * 作曲：Russell Harris
+*
+*
 * Aren't you glad  you didn't stay with me.
 * Bohemian life and instability.
 * You went off to university.
@@ -39,7 +41,6 @@
 * Aren't you glad,aren't you glad.
 * Aren't you glad aren't you glad
 * Aren't you glad,aren't you glad.
-* 
 
 
 ---

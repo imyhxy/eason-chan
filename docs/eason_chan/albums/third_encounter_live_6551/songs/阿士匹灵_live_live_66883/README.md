@@ -2,7 +2,8 @@
 
 * 作词：黄伟文
 * 作曲：陈奂仁
-* 
+*
+*
 * Never thought you were a fool
 * Yet you're still so insecure
 * All the trials that we've been through

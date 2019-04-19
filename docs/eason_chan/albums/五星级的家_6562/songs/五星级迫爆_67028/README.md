@@ -1,9 +1,8 @@
 # [五星级迫爆](https://music.163.com/song?id=67028)
 
 * 作曲：／編曲：金培達
-* 
-* 
-* 
+*
+*
 * 勁去拍拖
 * 快入場　看我們偉大成果
 * 將苦惱掟出公路
@@ -23,7 +22,6 @@
 * We will be happy people
 * 鐵甲人打跟斗更高
 * We are family
-* 
 
 
 ---

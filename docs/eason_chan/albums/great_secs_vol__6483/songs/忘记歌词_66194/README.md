@@ -2,6 +2,8 @@
 
 * 作词：黄伟文
 * 作曲：Edward Chan
+*
+*
 * 并没什么我爱上的不爱我
 * 我也惯了不想哭太多 叹息耐何?
 * 但亦高兴我每当须要救助
@@ -33,7 +35,6 @@
 * fa fa fa fa mi mi ri do ri do ri la so
 * mi mi so ri ri mi ri do do la
 * 谁能笑我一句亦没唱错
-* 
 
 
 ---

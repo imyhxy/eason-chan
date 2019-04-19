@@ -2,7 +2,8 @@
 
 * 作词：林嘉欣
 * 作曲：林伟哲
-* 
+*
+*
 * Either way it`s too late
 * Too late for regrets, I`m hurt
 * Leave me out of love

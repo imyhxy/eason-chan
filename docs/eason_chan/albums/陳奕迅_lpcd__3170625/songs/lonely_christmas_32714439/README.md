@@ -2,7 +2,8 @@
 
 * 作词：李峻一
 * 作曲：李峻一
-* 
+*
+*
 * 谁又骑着那鹿车飞过
 * 忘掉投下那礼物给我
 * 凝视那灯饰
@@ -43,24 +44,24 @@
 * 宁愿在醉酒中辛苦呕吐
 * 仍然在头痛
 * 合唱的诗歌听不到
-* Merry,merry christmas
-* Lonely,lonely christmas
-* 人浪中想真心告白
-* 但你只想听听笑话
-* Lonely,lonely christmas
-* merry,merry christmas
-* 明日灯饰必须拆下
-* 换到欢呼声不过一剎
-* Merry,merry christmas
-* Lonely,lonely christmas
-* 人浪中想真心告白
-* 但你只想听听笑话
-* Lonely,lonely christmas
-* merry,merry christmas
-* 明日灯饰必须拆下
-* 换到欢呼声不过一剎
-* 换到欢呼声不过一剎
 * 
+* Merry,merry christmas
+* Lonely,lonely christmas
+* 人浪中想真心告白
+* 但你只想听听笑话
+* Lonely,lonely christmas
+* merry,merry christmas
+* 明日灯饰必须拆下
+* 换到欢呼声不过一剎
+* Merry,merry christmas
+* Lonely,lonely christmas
+* 人浪中想真心告白
+* 但你只想听听笑话
+* Lonely,lonely christmas
+* merry,merry christmas
+* 明日灯饰必须拆下
+* 换到欢呼声不过一剎
+* 换到欢呼声不过一剎
 
 
 ---

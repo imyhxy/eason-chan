@@ -2,11 +2,12 @@
 
 * 作词：陈咏谦
 * 作曲：袁慧妍
+*
+*
 * 我们这个巡演 去了很多城市
 * 很多美丽memories
 * Sometimes when i think of all those laughters and tears
 * 多想再来一次 一次
-* 
 
 
 ---

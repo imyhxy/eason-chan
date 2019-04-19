@@ -2,7 +2,8 @@
 
 * 作词：李峻一
 * 作曲：李峻一
-* 
+*
+*
 * [ti:lonely chrismas]
 * 
 * 谁又骑着那鹿车飞过
@@ -14,6 +15,7 @@
 * 由唇上来验证我幸福过
 * 头上那飘雪 想要栖息我肩膊上
 * 到最后也别去么
+* 
 * Merry, Merry Christmas
 * Lonely, Lonely Christmas
 * 人浪中想真心告白
@@ -27,6 +29,7 @@
 * 由唇上来验证我幸福过
 * 头上那飘雪 想要栖息我肩膊上
 * 到最后也别去么
+* 
 * Merry, Merry Christmas
 * Lonely, Lonely Christmas
 * 人浪中想真心告白
@@ -50,6 +53,7 @@
 * Merry, Merry Christmas
 * 明日灯饰必须拆下
 * 换到欢呼声不过 一剎
+* 
 * Merry, Merry Christmas
 * Lonely, Lonely Christmas
 * 人浪中想真心告白
@@ -58,7 +62,6 @@
 * Merry, Merry Christmas
 * 明日灯饰必须拆下
 * 换到欢呼声不过 一剎
-* 
 
 
 ---

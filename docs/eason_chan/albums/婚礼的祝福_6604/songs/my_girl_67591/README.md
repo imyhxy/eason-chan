@@ -19,6 +19,7 @@
 * woo my my my girl
 * 为什么还装傻
 * 难道你就是喜欢看着我为你疯狂
+* 
 * 不只是因为你的头发很香
 * 才会想请你再让我闻闻看
 * 你明明知道我的脸在发烫
@@ -43,6 +44,7 @@
 * 你到底想怎样
 * 我已铺好红地毯
 * 女主角还不上场
+* 
 * my my my my my girl
 * my my my my my girl
 * 
@@ -61,11 +63,11 @@
 * 你到底想怎样
 * 我已铺好红地毯
 * 女主角还不上场
+* 
 * yeah yeah
 * my my my my my my girl
 * my my my my girl
 * girlcome oncome on come on girl
-* 
 
 
 ---

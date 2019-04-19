@@ -1,7 +1,8 @@
 # [时代曲 (Tszpun Remix)](https://music.163.com/song?id=26075100)
 
 * 作词：KWOK, ERIC/孫, 偉明/林, 若寧
-* 
+*
+*
 * 却怕在今晚之后
 * 若问你会如何
 * 就散席了

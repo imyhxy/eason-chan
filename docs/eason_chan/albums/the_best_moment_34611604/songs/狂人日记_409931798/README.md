@@ -3,8 +3,8 @@
 * 作词：林夕
 * 作曲：Adrian Fu
 * 编曲：Jim Lee
-* 
-* 
+*
+*
 * [al:Special Thanks To]
 * 愿望许过很多
 * 年少梦想失去下落

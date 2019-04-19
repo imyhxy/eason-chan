@@ -2,6 +2,8 @@
 
 * 作词：Stephen Mok
 * 作曲：Michael Lai/Victor Tse
+*
+*
 * Thousands of cities from home
 * Wander into the unknown
 * Chances are here I was told
@@ -40,7 +42,6 @@
 * If there's anything anything
 * I'd ask about in the end
 * Where will I wake up tomorrow
-* 
 
 
 ---

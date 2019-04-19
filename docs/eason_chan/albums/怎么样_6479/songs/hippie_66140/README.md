@@ -1,6 +1,8 @@
 # [Hippie](https://music.163.com/song?id=66140)
 
 * 作词：吴向飞
+*
+*
 * 突然明白了 好像亚当咬到苹果
 * 三十岁时为什么寂寞
 * 我该怎么办 难道继续这样
@@ -35,7 +37,6 @@
 * 我是Hippie now
 * 我是Hippie now
 * 一个长不大的Hippie
-* 
 
 
 ---

@@ -1,6 +1,5 @@
 # [唱歌(Live)](https://music.163.com/song?id=31234191)
 
-* 
 * 天气亦有不定阴晴
 * 浮云骤似天使又似幽灵
 * 天气是我今日心情
@@ -10,6 +9,7 @@
 * Di Di Da Di Di Da Da Di Da Da
 * Di Di Da Di Di Da Da Di Di Di
 * Di Da 平淡唱首歌
+* 
 * 花蕊上有彩蝶娉婷
 * 为何蝴蝶讨厌就似苍蝇
 * 双眼倦了好像失明
@@ -31,7 +31,6 @@
 * Di Di Da Di Di Da Da Di Da Da
 * Di Di Da Di Di Da Da Di Di Di
 * Di Da
-* 
 
 
 ---

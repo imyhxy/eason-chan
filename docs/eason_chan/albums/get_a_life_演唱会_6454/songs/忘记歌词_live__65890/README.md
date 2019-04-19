@@ -1,7 +1,7 @@
 # [忘记歌词 (Live)](https://music.163.com/song?id=65890)
 
-* 
 * 忘记歌词
+* 
 * 并没什么我爱上的不爱我
 * 我也惯了不想哭太多
 * 叹息耐何?
@@ -30,6 +30,7 @@
 * 自信记熟那对白吗
 * 却在最后那临场石板
 * 双腿发麻
+* 
 * 惊到so 急到 so
 * 再之后是什么?
 * 整句词忘记了
@@ -44,7 +45,6 @@
 * fa fa fa fa mi mi ri do ri do ri la so
 * mi mi so ri ri mi ri do do la
 * 谁能笑我一句亦没唱错
-* 
 
 
 ---

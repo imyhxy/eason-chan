@@ -1,7 +1,5 @@
 # [冲口而出](https://music.163.com/song?id=409941734)
 
-* 
-* 
 * [al:The Easy Ride]
 * 
 * 就似 机关枪 80发 霹拍响

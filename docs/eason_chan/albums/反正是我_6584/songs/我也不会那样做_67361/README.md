@@ -2,6 +2,8 @@
 
 * 作词：陈奂仁
 * 作曲：陈奕迅
+*
+*
 * this is the story, story of love.
 * story of abuse, story of apologies.
 * too late.
@@ -25,7 +27,6 @@
 * 也许我也不会难过。
 * if i only could believe that you were
 * 我也不会那么做，那么做。
-* 
 
 
 ---

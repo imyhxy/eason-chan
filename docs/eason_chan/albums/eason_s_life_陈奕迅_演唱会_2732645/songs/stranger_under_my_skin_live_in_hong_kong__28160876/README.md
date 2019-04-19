@@ -1,6 +1,5 @@
 # [Stranger Under My Skin (Live In Hong Kong, 2013)](https://music.163.com/song?id=28160876)
 
-* 
 * Love is a mystery to me
 * She was once here,and now she's someone
 * that I could not bear

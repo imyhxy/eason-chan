@@ -2,8 +2,8 @@
 
 * 作词：黄伟文
 * 作曲：柳重言
-* 
-* 
+*
+*
 * [al:Shall We Dance? Shall We Talk!]
 * 编 : 柳重言
 * 不要不要假设我知道

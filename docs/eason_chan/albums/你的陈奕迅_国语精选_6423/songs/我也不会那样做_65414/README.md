@@ -1,6 +1,8 @@
 # [我也不会那样做](https://music.163.com/song?id=65414)
 
 * 作词：陳, 奕迅/陳, 奐仁
+*
+*
 * This is the story, story of love.
 * Story of abuse, Story of apologies.
 * Too late.
@@ -24,7 +26,6 @@
 * 也许我也不会难过。
 * If I only could believe that you were lying to him，
 * 我也不会那么做，那么做。
-* 
 
 
 ---

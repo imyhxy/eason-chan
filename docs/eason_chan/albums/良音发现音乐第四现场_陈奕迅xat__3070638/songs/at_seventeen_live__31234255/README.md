@@ -2,7 +2,8 @@
 
 * 作词：林一峰
 * 作曲：Janis Lan
-* 
+*
+*
 * I leamt the truth at seventeen
 * 重复某片段数十遍
 * 昙花一开已告段落

@@ -2,8 +2,10 @@
 
 * 作词：林夕
 * 作曲：陈辉阳
-* 
+*
+*
 * [ti:Shall We Talk]
+* 
 * [al:Shall We Dance? Shall We Talk!]
 * 编 : 金培达
 * 明月光
@@ -66,7 +68,6 @@
 * Shall we talk
 * 斜阳白赶一趟
 * 沉默令我听得见叶儿声声降
-* 
 
 
 ---

@@ -3,8 +3,8 @@
 * 作词：林夕
 * 作曲：Hugesen/D/Christensen/B
 * 编曲：Jim Lee
-* 
-* 
+*
+*
 * [al:Special Thanks To]
 * 你会看到 一颗颗绿豆
 * 紧紧包围 蓝色的河流
