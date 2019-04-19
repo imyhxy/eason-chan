@@ -16,6 +16,7 @@ from bs4 import BeautifulSoup
 
 CURR_FOLDER = os.path.dirname(__file__)
 
+
 class NetEase(object):
     head = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'}
@@ -52,13 +53,29 @@ class NetEase(object):
         else:
             return ret
 
-
     def to_json(self):
         raise NotImplementedError
 
     def url_to_file(self, url):
         table = str.maketrans(':&/=?%+-*#$@!`~[]{}|<>,.', '________________________')
         return url.translate(table)
+
+    @staticmethod
+    def _to_filename(name):
+        name = str(name)
+        ret = []
+        _flag = False
+        for s in name.lower().strip():
+            if ord(s) < 256:
+                if not 97 <= ord(s) <= 122:
+                    if not _flag:
+                        ret.append('_')
+                        _flag = True
+                    continue
+            ret.append(s)
+            _flag = False
+
+        return ''.join(ret)
 
 
 class Singer(NetEase):
@@ -137,9 +154,11 @@ class Singer(NetEase):
             f.write(self.templates[self._to_filename(self.alias)])
             f.write('\n## Albums\n\n')
             for al in self.albums:
-                al_readme = os.path.join('albums', self._to_filename(al.name), 'README.md')
+                al_readme = os.path.join('albums',
+                                         self._to_filename(al.name) + f'_{al.id}',
+                                         'README.md')
+                al._build_album(self.doc_root)
                 f.write('* [{:s}]({:s})\n'.format(al.name, al_readme))
-
 
     def _read_template(self, folder='template'):
         template_root = os.path.join(CURR_FOLDER, folder)
@@ -149,24 +168,6 @@ class Singer(NetEase):
             with open(os.path.join(template_root, f)) as fp:
                 templates[f.split('.')[0]] = fp.read()
         return templates
-
-    @staticmethod
-    def _to_filename(name):
-        name = str(name)
-        ret = []
-        _flag = False
-        for s in name.lower().strip():
-            if ord(s) < 256:
-                if not 97 <= ord(s) <= 122:
-                    if not _flag:
-                        ret.append('_')
-                        _flag = True
-                    continue
-            ret.append(s)
-            _flag = False
-
-        return ''.join(ret)
-
 
 
 class Album(NetEase):
@@ -264,6 +265,56 @@ class Album(NetEase):
 
         return al
 
+    def _build_album(self, singer_root):
+        al_root = os.path.join(singer_root, 'albums',
+                               self._to_filename(self.name) + '_{:d}'.format(self.id))
+        al_readme = os.path.join(al_root, 'README.md')
+
+        # for album image
+        al_imgs_folder = os.path.join(al_root, 'imgs')
+        if not os.path.exists(al_imgs_folder):
+            os.makedirs(al_imgs_folder)
+
+        al_img_path = os.path.join(al_imgs_folder, self._to_filename(self.name) + '.jpg')
+        with open(al_img_path, 'wb') as fp:
+            fp.write(self.img)
+
+        # for songs
+        al_songs = os.path.join(al_root, 'songs')
+        if not os.path.exists(al_songs):
+            os.makedirs(al_songs)
+
+        with open(al_readme, 'w') as f:
+            f.write('<p align=\"center\">\n'
+                    '\t<img src=\"{:s}\" alt=\"album_img\" />\n'
+                    '</p>\n\n'.format(os.path.join('imgs', os.path.basename(al_img_path))))
+            f.write(f'# [{self.name}]({self.url})\n\n')
+            f.write(f'* 时间：{self.time}\n')
+            f.write('* 歌手：{:s}\n'.format('，'.join(self.singers)))
+            f.write(f'* 唱片公司：{self.company}\n')
+
+            f.write('## Songs\n\n')
+            for so in self.songs:
+                so_path = os.path.join('songs', self._to_filename(so.name) + f'_{so.id}')
+                so._build_song(al_songs)
+                f.write('* [{:s}]({:s})\n'.format(so.name, os.path.join(so_path, 'README.md')))
+
+            f.write('## Appendix\n\n')
+            f.write('### Description\n\n')
+            f.write('\n'.join(self.description))
+            f.write('\n\n')
+
+            f.write('### Score\n\n')
+            f.write('|歌曲数|评论数|分享数|\n')
+            f.write('|:---:|:---:|:---:|\n')
+            f.write(f'|{self.num_songs}|{self.num_comments}|{self.num_shared}|\n\n')
+
+            f.write('|歌名|分数|\n')
+            f.write('|:---:|:---:|\n')
+            sorted_songs = sorted(self.songs, key=lambda x: x.score, reverse=True)
+            for so in sorted_songs:
+                f.write(f'|{so.name}|{so.score}\n')
+
 
 class Song(NetEase):
     def __init__(self, s, duration=0, score=0, time=None, eager=True):
@@ -294,6 +345,50 @@ class Song(NetEase):
             'duration': self.duration,
             'ric': self.ric.to_json(),
         }
+
+    def _build_song(self, album_root):
+        song_root = os.path.join(album_root, self._to_filename(self.name) + f'_{self.id}')
+
+        if not os.path.exists(song_root):
+            os.makedirs(song_root)
+
+        so_readme = os.path.join(song_root, 'README.md')
+
+        with open(so_readme, 'w') as f:
+            ric = self.ric
+            f.write(f'# [{self.name}]({self.url})\n\n')
+            if ric.singer:
+                f.write(f'* 歌手：{ric.singer}\n')
+            if ric.songwriter:
+                f.write(f'* 作词：{ric.songwriter}\n')
+            if ric.composer:
+                f.write(f'* 作曲：{ric.composer}\n')
+            if ric.arrangement:
+                f.write(f'* 编曲：{ric.arrangement}\n')
+
+            flag = False
+            for line in ric.lyric:
+                if not line:
+                    if flag:
+                        flag = False
+                        continue
+                    else:
+                        flag = True
+                f.write('* {:s}\n'.format(line.strip()))
+
+            f.write('\n\n---\n\n')
+            f.write('## Appendix\n\n')
+            f.write('|歌名|分数|时长|时间|\n')
+            f.write('|:---|:---:|---:|---:|\n')
+            f.write(f'|{self.name}|{self.score}|{self.elapse}|{self.time}\n\n')
+
+            f.write('*modified: {:s}*'.format(str(self.ric.modified)))
+
+
+    @property
+    def elapse(self):
+        sec = self.duration // 1000
+        return '{:d}:{:d}'.format(*divmod(sec, 60))
 
     @classmethod
     def from_json(cls, json_con):

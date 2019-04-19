@@ -1,0 +1,48 @@
+# [The Best Is Yet To Come(Live)](https://music.163.com/song?id=31234184)
+
+* 
+* 永远有一个吻未尝
+* 有些烛光未燃亮
+* 若爱太苦要落糖
+* 结他断线亦无恙
+* to hug someone
+* to kiss someone
+* the best is yet to come
+* 若要错失永不能守
+* 得到也不代表长久
+* 假使快乐有尽头
+* 痛苦也未会不朽
+* 寂寞半点假如不能承受
+* 这生命注定过得不易
+* 笑或泪
+* 亦有时候
+* to hug someone
+* to kiss someone
+* the best is yet to come
+* 
+* 若你说不再听情歌
+* 不想再经历这漩涡
+* 假使抱住你拳头
+* 到底也没法牵手
+* 就是为了追求一时平静
+* 将感情隔离半点感动都扼杀
+* 没法承受
+* 永远有不妥协伤口
+* 有些憾事不放手
+* 若你太刻意淡忘
+* 越会补不到缺口
+* why don't you just hug someone
+* just kiss someone
+* the best is yet to come
+* 最好的就快来临
+
+
+---
+
+## Appendix
+
+|歌名|分数|时长|时间|
+|:---|:---:|---:|---:|
+|The Best Is Yet To Come(Live)|90.0|2:53|2003-07-12
+
+*modified: False*
