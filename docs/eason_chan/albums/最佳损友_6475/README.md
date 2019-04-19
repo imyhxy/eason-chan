@@ -15,6 +15,7 @@
 ### Description
 
 与《U 87》的主题一样，Eason 新碟的主题是探究人生，希望带出人生是有喜有悲，勿因挫折而自寻短见的讯息，其中不少新歌是他对家庭、事业及人生的写照。主打歌“最佳损友”是 Eason 继一曲“夕阳无限好”后再与 Eric Kwok 合作，黄伟文填词。
+
 预购加赠CD“最佳损友 (To My Friend) Special Mix”一张，而此 Remix 不会收录于EP内。
 
 ### Score

@@ -89,7 +89,10 @@ class Singer(NetEase):
         self.url = 'https://music.163.com/artist?id=' + str(self.id)
         soup = BeautifulSoup(self.get_url(self.url), 'html.parser')
         self.name = soup.find('h2', id='artist-name').text.strip()
-        self.alias = soup.find('h3', id='artist-alias').text.strip()
+        if soup.find('h3', id='artist-alias').text.strip():
+            self.alias = soup.find('h3', id='artist-alias').text.strip()
+        else:
+            self.alias = self.name
 
     def get_all_albums(self):
         self.get_all_albums_id()
@@ -151,7 +154,7 @@ class Singer(NetEase):
 
     def _build_singer(self):
         with open(os.path.join(self.doc_root, 'README.md'), 'w') as f:
-            f.write(self.templates[self._to_filename(self.alias)])
+            f.write(self.templates.get(self._to_filename(self.alias), ''))
             f.write('\n## Albums\n\n')
             for al in self.albums:
                 al_readme = os.path.join('albums',
@@ -301,7 +304,7 @@ class Album(NetEase):
 
             f.write('## Appendix\n\n')
             f.write('### Description\n\n')
-            f.write('\n'.join(self.description))
+            f.write('\n\n'.join(self.description))
             f.write('\n\n')
 
             f.write('### Score\n\n')
@@ -493,19 +496,29 @@ def self_check(con):
         elif isinstance(val, bytes):
             print(key)
 
-
-if __name__ == '__main__':
-    singer_id = 2116
-    # eason_chan = Singer(singer_id)
-    with open(os.path.join(CURR_FOLDER, 'json_src', str(singer_id) + '.json')) as f:
-        json_con = json.load(f)
-        eason_chan = Singer.from_json(json_con)
+def main(singer_id, fetch=True, build_doc=True):
+    if not fetch:
+        assert os.path.exists(os.path.join(CURR_FOLDER, 'json_src', str(singer_id) + '.json'))
 
     json_src = os.path.join(CURR_FOLDER, 'json_src')
     if not os.path.exists(json_src):
         os.makedirs(json_src)
 
-    # with open(os.path.join(json_src, f'{singer_id}.json'), 'w') as fp:
-    #     json.dump(eason_chan.to_json(), fp, indent=4, sort_keys=True)
+    if fetch:
+        singer = Singer(singer_id)
+        with open(os.path.join(json_src, f'{singer_id}.json'), 'w') as fp:
+            json.dump(singer.to_json(), fp, indent=4, sort_keys=True)
+    else:
+        with open(os.path.join(CURR_FOLDER, 'json_src', str(singer_id) + '.json')) as f:
+            json_con = json.load(f)
+            singer = Singer.from_json(json_con)
+    if build_doc:
+        singer.build_doc()
 
-    eason_chan.build_doc()
+
+
+if __name__ == '__main__':
+    singer_id = 2116  # eason chan
+    # singer_id = 5781  # chou
+    main(singer_id, fetch=False)
+

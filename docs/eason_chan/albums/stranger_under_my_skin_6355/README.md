@@ -22,7 +22,9 @@
 ### Description
 
 超脱俗世品嚐气氛后
+
 陈奕迅交出审视自我另一面之作
+
 《STRANGER UNDER MY SKIN》 情绪暗潮触动
 
 ### Score

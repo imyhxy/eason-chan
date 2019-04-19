@@ -90,8 +90,11 @@
 ### Description
 
 专辑介绍：陈奕迅 Sound & Sight (5CD+2DVD)
+
 4CD 精选歌曲 1CD 钢琴音乐 2DVD 精选 MV
+
 4首新歌
+
 3首全新 Remix
 
 ### Score

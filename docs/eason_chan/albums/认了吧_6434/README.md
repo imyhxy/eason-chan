@@ -25,7 +25,9 @@
 ### Description
 
 好久不见陈奕迅最新国语专辑《认了吧Admit it Eason Chan》
+
 陈奕迅Eason筹备多时的最新国语专辑『认了吧Admit it Eason Chan』将于4月24日在亚洲各地同步推出。
+
 这次用作为专辑名称，Eason说这是与制作过程有关。
 
 ### Score
