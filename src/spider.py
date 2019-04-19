@@ -78,15 +78,15 @@ class Singer(NetEase):
         self.get_all_albums_id()
 
         self.albums = []
-        num_albums = len(self._album_id_list)
-        for idx, album_id in enumerate(self._album_id_list):
+        num_albums = len(self._album_ids)
+        for idx, album_id in enumerate(self._album_ids):
             album = Album(album_id, eager=False)
             print('Analyzed album: {:s} ({:d}/{:d}).'.format(album.name, idx + 1, num_albums))
             album.get_info()
             self.albums.append(album)
 
     def get_all_albums_id(self):
-        self._album_id_list = []
+        self._album_ids = []
         url = 'http://music.163.com/artist/album?id=' + \
               str(self.id) + '&limit=999&offset=0'
         content = self.get_url(url)
@@ -98,7 +98,7 @@ class Singer(NetEase):
         for album in curr_albums:
             albums_id = int(album.find('a', attrs={'class': 'msk'})[
                                 'href'].split('=')[-1])
-            self._album_id_list.append(albums_id)
+            self._album_ids.append(albums_id)
 
     def to_json(self):
         return {
@@ -107,7 +107,7 @@ class Singer(NetEase):
             'name': self.name,
             'alias': self.alias,
             'albums': [al.to_json() for al in self.albums],
-            'album_ids': self._album_id_list
+            'album_ids': self._album_ids
         }
 
     @classmethod
@@ -117,22 +117,69 @@ class Singer(NetEase):
         si.url = json_con['url']
         si.name = json_con['name']
         si.alias = json_con['alias']
-        si.albums = [Album.from_json(al) for al in json_con('albums')]
-        si.album_ids = json_con['album_ids']
+        si.albums = [Album.from_json(al) for al in json_con['albums']]
+        si._album_ids = json_con['album_ids']
 
         return si
 
+    def build_doc(self):
+        self.doc_root = os.path.join(CURR_FOLDER, '..',
+                                     'docs', self._to_filename(self.alias))
+
+        if not os.path.exists(self.doc_root):
+            os.makedirs(self.doc_root)
+
+        self.templates = self._read_template()
+        self._build_singer()
+
+    def _build_singer(self):
+        with open(os.path.join(self.doc_root, 'README.md'), 'w') as f:
+            f.write(self.templates[self._to_filename(self.alias)])
+            f.write('\n## Albums\n\n')
+            for al in self.albums:
+                al_readme = os.path.join('albums', self._to_filename(al.name), 'README.md')
+                f.write('* [{:s}]({:s})\n'.format(al.name, al_readme))
+
+
+    def _read_template(self, folder='template'):
+        template_root = os.path.join(CURR_FOLDER, folder)
+
+        templates = {}
+        for f in os.listdir(template_root):
+            with open(os.path.join(template_root, f)) as fp:
+                templates[f.split('.')[0]] = fp.read()
+        return templates
+
+    @staticmethod
+    def _to_filename(name):
+        name = str(name)
+        ret = []
+        _flag = False
+        for s in name.lower().strip():
+            if ord(s) < 256:
+                if not 97 <= ord(s) <= 122:
+                    if not _flag:
+                        ret.append('_')
+                        _flag = True
+                    continue
+            ret.append(s)
+            _flag = False
+
+        return ''.join(ret)
+
+
 
 class Album(NetEase):
-    def __init__(self, album_id, eager=True):
-        self.id = album_id
-        self.url = 'https://music.163.com/album?id=' + str(self.id)
-        content = self.get_url(self.url)
-        self.soup = BeautifulSoup(content, 'html.parser')
-        self.name = self.soup.find('h2', attrs={'class': 'f-ff2'}).text.strip()
+    def __init__(self, album_id, eager=True, rebuild=False):
+        if not rebuild:
+            self.id = album_id
+            self.url = 'https://music.163.com/album?id=' + str(self.id)
+            content = self.get_url(self.url)
+            self.soup = BeautifulSoup(content, 'html.parser')
+            self.name = self.soup.find('h2', attrs={'class': 'f-ff2'}).text.strip()
 
-        if eager:
-            self.get_info()
+            if eager:
+                self.get_info()
 
     def get_info(self):
         self._img_link = self.soup.find('meta', attrs={'property': 'og:image'})['content']
@@ -199,7 +246,7 @@ class Album(NetEase):
     @classmethod
     def from_json(cls, json_con):
         SongInfo = namedtuple('SongInfo', ['id', 'duration', 'score'])
-        al = cls(0, eager=False)
+        al = cls(0, rebuild=True)
         al.id = json_con['id']
         al.url = json_con['url']
         al.img = decodebytes(json_con['img'].encode('ascii'))
@@ -213,7 +260,7 @@ class Album(NetEase):
         al.num_shared = json_con['num_shared']
         al.num_songs = json_con['num_song']
         al._songs_info = [SongInfo(s['id'], s['duration'], s['score']) for s in json_con['songs_info']]
-        al.songs = [Song.from_json(s) for s in json_con('songs')]
+        al.songs = [Song.from_json(s) for s in json_con['songs']]
 
         return al
 
@@ -252,6 +299,7 @@ class Song(NetEase):
     def from_json(cls, json_con):
         so = Song(0, eager=False)
         so.id = json_con['id']
+        so.url = json_con['url']
         so.name = json_con['name']
         so.duration = json_con['duration']
         so.score = json_con['score']
@@ -353,11 +401,16 @@ def self_check(con):
 
 if __name__ == '__main__':
     singer_id = 2116
-    eason_chan = Singer(singer_id)
+    # eason_chan = Singer(singer_id)
+    with open(os.path.join(CURR_FOLDER, 'json_src', str(singer_id) + '.json')) as f:
+        json_con = json.load(f)
+        eason_chan = Singer.from_json(json_con)
 
     json_src = os.path.join(CURR_FOLDER, 'json_src')
     if not os.path.exists(json_src):
         os.makedirs(json_src)
 
-    with open(os.path.join(json_src, f'{singer_id}.json'), 'w') as fp:
-        json.dump(eason_chan.to_json(), fp, indent=4, sort_keys=True)
+    # with open(os.path.join(json_src, f'{singer_id}.json'), 'w') as fp:
+    #     json.dump(eason_chan.to_json(), fp, indent=4, sort_keys=True)
+
+    eason_chan.build_doc()
