@@ -40,6 +40,15 @@
 
 ---
 
+## Comments
+0. **[保安亭长 \[14\]](https://music.163.com/#/user/home?id=16414535):** 好诡异的唱法
+
+1. **[najaaa \[12\]](https://music.163.com/#/user/home?id=66102503):** 不信天书相信美丽的生活[爱心]
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

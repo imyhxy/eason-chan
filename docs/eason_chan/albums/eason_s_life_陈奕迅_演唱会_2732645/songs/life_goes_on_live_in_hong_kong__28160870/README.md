@@ -41,6 +41,21 @@
 
 ---
 
+## Comments
+0. **[CrisChi \[400\]](https://music.163.com/#/user/home?id=75331275):** 第一句life goes on好听到爆[呲牙]
+
+1. **[luula \[233\]](https://music.163.com/#/user/home?id=54610522):** 忽然想起王菲和李亚鹏离婚之后 窦靖童微博上给她妈妈的话 the pain is real   but life goes on 真的再多的话语都抵不上这几个词的温暖
+
+2. **[Acacia_Mia菲 \[219\]](https://music.163.com/#/user/home?id=66071851):** Life Goes On，到了内地换作《路，一直都在》。。Eason的选歌都好匹配
+
+3. **[DepthAbyss1 \[192\]](https://music.163.com/#/user/home?id=59875009):** 很多歌都是现场超越了录音室
+
+4. **[唯爱Eason727 \[117\]](https://music.163.com/#/user/home?id=67180062):** 比cd好听 这场life超赞的
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

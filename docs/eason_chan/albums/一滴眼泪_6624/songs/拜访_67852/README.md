@@ -22,6 +22,21 @@
 
 ---
 
+## Comments
+0. **[只是不懂歌词 \[300\]](https://music.163.com/#/user/home?id=37758557):** 从头听起，准备把Eason的歌全部听一遍
+
+1. **[1siyinyue \[225\]](https://music.163.com/#/user/home?id=42907169):** 陈奕迅还记得这首歌嘛？[汗][汗][汗]
+
+2. **[不失恋的人是不是无法听情歌 \[217\]](https://music.163.com/#/user/home?id=97796701):** 有人说陈奕迅早期是模仿张学友的唱法，我不信。现在我信了！
+
+3. **[十一月二十 \[168\]](https://music.163.com/#/user/home?id=88080412):** 哈哈哈哈哈胖子快来认领你的歌
+
+4. **[Anywayzj \[63\]](https://music.163.com/#/user/home?id=97366768):** 有你的地方，都要去cuang一cuang 不能够zeng扎[大哭]哈哈哈我要碎了俊哥早唞。
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

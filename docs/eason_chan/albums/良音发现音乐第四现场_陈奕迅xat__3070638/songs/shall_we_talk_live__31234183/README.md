@@ -56,6 +56,24 @@
 
 ---
 
+## Comments
+0. **[GodErik \[334\]](https://music.163.com/#/user/home?id=85798197):** 我们广东人喜欢喝汤，一家人晚上一起吃一顿饭最重要，但是孩子长大了公司工作很忙，没有时间回家和家人吃饭聊天，回应shall we talk
+	* > **[流年似水一往无前](https://music.163.com/#/user/home?id=436624233):** 孩儿在公司很忙不需喝汤？get不到点
+
+1. **[EF黎明 \[143\]](https://music.163.com/#/user/home?id=558576682):** 看到eason就戳进来，结果老陈一句都没唱。。。
+
+2. **[DanielhuiHK \[93\]](https://music.163.com/#/user/home?id=593299399):** 在另一个世界 得到永生
+
+3. **[宋俊锴今天熬夜了吗 \[27\]](https://music.163.com/#/user/home?id=430020139):** miss you Ellen ❣
+
+4. **[糍粑牛奶 \[24\]](https://music.163.com/#/user/home?id=417564639):** 11月许个愿望 让我学会粤语吧 😭 张学友张国荣陈奕迅杨千嬅…… 不会粤语你让我去KTV 怎么办😂😂😂
+
+5. **[全脂果核 \[13\]](https://music.163.com/#/user/home?id=253801938):** 没关系的，你的作品留下来了，你也就留下来了
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

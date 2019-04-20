@@ -58,6 +58,15 @@
 
 ---
 
+## Comments
+0. **[望日光 \[43\]](https://music.163.com/#/user/home?id=87253149):** 点解喜欢你 因为我做大人嘅时候 你就系小朋友 而我做小朋友嘅时候 你就变咗大人 ” 
+
+1. **[Toofarfromhere \[15\]](https://music.163.com/#/user/home?id=11094158):** 前奏一起就沦陷
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

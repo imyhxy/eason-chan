@@ -50,6 +50,29 @@
 
 ---
 
+## Comments
+0. **[大脸茜 \[227\]](https://music.163.com/#/user/home?id=42986356):** 你要是不喜欢我，愿你找到喜欢的那位。
+
+1. **[网中人 \[113\]](https://music.163.com/#/user/home?id=522985):** 每种情绪总能找到陈奕迅一首歌来表达
+
+2. **[小珠桃子o \[77\]](https://music.163.com/#/user/home?id=63197752):** 愈想愈无所谓 不高考了！
+
+3. **[AlexanderMOO \[62\]](https://music.163.com/#/user/home?id=17666613):** Eason唱到“留下我怎么去克制”的“怎么”的时候的一个转音，把那种无奈的心情刻画得淋漓尽致，仿佛他就在你面前，皱眉、歪头、耸肩、摊手，觉得一切都兴味索然、毫无意义。
+
+4. **[猜猜的 \[48\]](https://music.163.com/#/user/home?id=78528463):** 是看了eason日文翻唱玉置浩二的演出视频移步过来的，live好棒，不过这曲子本来就很好听，但感觉中文词稍稍弱过曲子。
+
+5. **[黄阿牛啊 \[40\]](https://music.163.com/#/user/home?id=78910183):** Mr lonely的粤语版，他现场唱的Mr lonely也很好听。
+
+6. **[kuygyu \[35\]](https://music.163.com/#/user/home?id=68337121):** Mr.lonely的粤语版我现在才听到[生病]
+
+7. **[rbfi_ \[33\]](https://music.163.com/#/user/home?id=59967575):** 你要是不喜欢我 愿你找到喜爱那位
+
+8. **[废青沉船粪 \[32\]](https://music.163.com/#/user/home?id=57217518):** Mr lonely
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

@@ -19,6 +19,19 @@
 
 ---
 
+## Comments
+0. **[iling18 \[140\]](https://music.163.com/#/user/home?id=82940587):** 简单点，开心点，不去追求那么多的日子挺好……
+
+1. **[修理地球的工程师 \[39\]](https://music.163.com/#/user/home?id=347322945):** 谢谢你陪我走了这么久，可是这次我真的要走了，谢谢这一年你和我经历的这一切，祝你们幸福，我先走了。
+
+2. **[flyonflyonflyon \[15\]](https://music.163.com/#/user/home?id=541376373):** 说个笑话纪念我
+
+3. **[cookiecookic \[13\]](https://music.163.com/#/user/home?id=267070889):** 我相信总有一天这首歌会999+
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

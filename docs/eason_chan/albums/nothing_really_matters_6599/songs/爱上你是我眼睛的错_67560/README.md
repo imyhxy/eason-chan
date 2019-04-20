@@ -28,6 +28,22 @@
 
 ---
 
+## Comments
+0. **[矛盾患者 \[87\]](https://music.163.com/#/user/home?id=16348532):** 意思是我瞎了眼看上你你能不能别吵我耳朵了！              对爱人唱歌这个是找打[大哭]鉴定完毕
+
+1. **[__DavidLee \[35\]](https://music.163.com/#/user/home?id=43112973):** 有一段就像是吹哥在耳边唱🙈
+
+2. **[404NoFriend \[29\]](https://music.163.com/#/user/home?id=7515930):** 这是他在华星的最后一张。这张之后去的英皇。
+	* > **[Hsiaoooooooo](https://music.163.com/#/user/home?id=42964571):** 有可能是這是他英皇時期的最後一個專輯 鬧得很不開心
+
+3. **[咖喱猴 \[26\]](https://music.163.com/#/user/home?id=41763760):** 最不满意作品……林夕心里是卧槽的
+
+4. **[a-bad-boy \[12\]](https://music.163.com/#/user/home?id=51160736):** 这些年还是喜欢陈奕迅的歌[奸笑]
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

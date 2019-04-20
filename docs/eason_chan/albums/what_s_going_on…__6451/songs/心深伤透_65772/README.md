@@ -37,6 +37,27 @@
 
 ---
 
+## Comments
+0. **[kidl- \[823\]](https://music.163.com/#/user/home?id=33608114):** 国语画风不同是因为Eason唱不了那么快的普通话啊~[大哭]
+
+1. **[一纸青书 \[486\]](https://music.163.com/#/user/home?id=57091047):** 这歌多么适合在深夜说：睡你麻痹，起来嗨！
+
+2. **[冥然兀坐 \[360\]](https://music.163.com/#/user/home?id=2938729):** 不愧是唱超人迪加主题曲的～[开心]
+
+3. **[呱呱呱呱呱给vvvvv \[299\]](https://music.163.com/#/user/home?id=36879752):** 刚刚听完爱是一本书，没想到粤语的画风突变啊[大哭]
+
+4. **[帐号已注销 \[287\]](https://music.163.com/#/user/home?id=53318764):** 国粤两版画风截然不同[憨笑]
+
+5. **[c_oliver \[183\]](https://music.163.com/#/user/home?id=6236121):** eson真是什么都能驾驭啊。
+
+6. **[Sagun-s \[142\]](https://music.163.com/#/user/home?id=41282822):** [流泪]有没有R2大神在，当年的神曲啊
+
+7. **[睇起来像诗人 \[100\]](https://music.163.com/#/user/home?id=18244427):** 有天找到乌托邦多high
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

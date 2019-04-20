@@ -27,6 +27,17 @@
 
 ---
 
+## Comments
+0. **[Mid-nightLight \[90\]](https://music.163.com/#/user/home?id=61425746):** 噗哈哈哈哈这普通话 我相信那时的eason也是尽力了
+
+1. **[你说的启明星 \[53\]](https://music.163.com/#/user/home?id=55794233):** 那时候普通话各种醉。哈哈医生你现在普通话各种666
+
+2. **[_逍遥g \[34\]](https://music.163.com/#/user/home?id=72229848):** 来回味下我当时的声音 请无视我。
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

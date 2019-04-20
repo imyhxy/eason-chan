@@ -29,6 +29,26 @@
 
 ---
 
+## Comments
+0. **[乍见之欢_君子 \[117\]](https://music.163.com/#/user/home?id=443076538):** 其实两个人之间最好的关系就是兄妹，因为有血缘关系，谁也不会因为一些事情而离开对方，就当兄妹一辈子挺好的。
+
+1. **[StarLSD_ \[48\]](https://music.163.com/#/user/home?id=122009568):** 德国骨科❤
+
+2. **[Shmillly \[45\]](https://music.163.com/#/user/home?id=342141210):** 可是你从不拒绝我，又不叫我离开，也不让我留下来
+
+3. **[Monster_1222 \[25\]](https://music.163.com/#/user/home?id=106748825):** 我们的爱情就像tan90°🙁
+
+4. **[_Payy \[19\]](https://music.163.com/#/user/home?id=251961111):** 我要去“岁月如歌”底下说这是“兄妹”的粤语版
+	* > **[鹿栖阳光](https://music.163.com/#/user/home?id=357057272):** 岁月如歌的国语版。
+
+5. **[ZHANG__LIN \[15\]](https://music.163.com/#/user/home?id=364849475):** 评论这么少呐~不正常
+
+6. **[白胡椒- \[11\]](https://music.163.com/#/user/home?id=105608979):** mv拍的很复杂，同性，双性，爱不爱不知道，三个人一起生活。
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

@@ -47,6 +47,21 @@
 
 ---
 
+## Comments
+0. **[超級小的小屁孩兒yu \[152\]](https://music.163.com/#/user/home?id=61207686):** “妈妈，那个人疯了，我怕”。“不要怕，那人没疯，他只是很伤心”
+
+1. **[消失的风子 \[100\]](https://music.163.com/#/user/home?id=91233653):** eason唱粤语如神附身[呆]
+
+2. **[seventeen \[77\]](https://music.163.com/#/user/home?id=399458):** 巅峰时期的嗓音，这个live版太吓人了
+
+3. **[纸片儿毛 \[63\]](https://music.163.com/#/user/home?id=38604260):** 「唱直播跟CD一样」
+
+4. **[帐号已注销 \[58\]](https://music.163.com/#/user/home?id=111818917):** 13版本简直无法超越
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

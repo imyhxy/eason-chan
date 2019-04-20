@@ -41,6 +41,19 @@
 
 ---
 
+## Comments
+0. **[lizik \[82\]](https://music.163.com/#/user/home?id=33123986):** 觉得这首歌特别适合婚礼[可爱]
+
+1. **[Moony茄 \[48\]](https://music.163.com/#/user/home?id=39243736):** 列入"如果我嫁得出去的话婚礼要播的歌"列表。
+
+2. **[_Is-赵小姐_ \[38\]](https://music.163.com/#/user/home?id=59298776):** 双鱼的阿徐，狮子的Eason…一生幸福
+
+3. **[東橡兒 \[23\]](https://music.163.com/#/user/home?id=29623743):** 建议去看他2010DUO香港演唱会这首歌他和包包的互动，暖哭我
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

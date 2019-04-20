@@ -22,6 +22,15 @@
 
 ---
 
+## Comments
+0. **[安歌歌歌歌歌 \[116\]](https://music.163.com/#/user/home?id=75968914):** 喜欢听eason低语着shall we talk shall we dance的时候，好性感啊～～～耳朵怀孕了辣(*/ω＼*)
+
+1. **[安歌歌歌歌歌 \[66\]](https://music.163.com/#/user/home?id=75968914):** 怎么有种鬼畜的感觉…[大哭][大哭][大哭]
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

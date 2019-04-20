@@ -40,6 +40,41 @@
 
 ---
 
+## Comments
+0. **[动作戏 \[2108\]](https://music.163.com/#/user/home?id=30626527):** 中间空白一大段还以为歌曲唱完了，只有我一个人这样？？？
+
+1. **[herRed \[1524\]](https://music.163.com/#/user/home?id=2886408):** this is eason. um, i'm kind of ,i'm not i'm not kind of ,i'm really,getting to the airport right now.so ,i don't know what to say,um,so see you right,i'll see you right on,and i'll try to get that demo out of the head of the night. 
+
+2. **[猩猩啼 \[928\]](https://music.163.com/#/user/home?id=51795381):** 准大二生觉得这首歌适合当你埋头学习经历高考听了所谓建议进入大学后发现继续着几乎没有多少选择的生活时。或者，它应该适合我们大多数的人生常态
+
+3. **[帐户已注销 \[923\]](https://music.163.com/#/user/home?id=57496610):** 这首歌也是一首只想独自沉浸而不想推荐的曲目，辛亏没有99+
+
+4. **[泠然淡缘 \[791\]](https://music.163.com/#/user/home?id=48354858):** 中间空的那一段，或许就是用来思考自己答案的留白吧。
+
+5. **[isgaojiao \[479\]](https://music.163.com/#/user/home?id=53158450):** 这歌要和《我的快乐时代》一起听[奸笑]
+
+6. **[棱有点小冷 \[412\]](https://music.163.com/#/user/home?id=61443175):** 我怕谁失望，我为谁而忙。以前是爸妈，现在是自己和爸妈。最怕就是别人对自己失望。
+
+7. **[矛盾患者 \[326\]](https://music.163.com/#/user/home?id=16348532):** 高三党听得很有感触。
+
+8. **[他好像_一条狗 \[314\]](https://music.163.com/#/user/home?id=3420295):** 为何我的问题  总在等待百度的答案
+
+9. **[某韩丨 \[247\]](https://music.163.com/#/user/home?id=434146849):** 我在慢慢听陈奕迅的一千多首歌[憨笑]
+
+10. **[-强盗胡子- \[174\]](https://music.163.com/#/user/home?id=36811065):** 听到了一个叫27 seconds来的就我一个吗
+
+11. **[要努力加餐饭 \[118\]](https://music.163.com/#/user/home?id=358060004):** “毫无代价唱最幸福的歌，愿我可”——《我的快乐时代》 “我的快乐时代唱烂，才领悟代价多高昂”——《然后怎样》
+
+12. **[Kriaaaaa \[77\]](https://music.163.com/#/user/home?id=440721983):** 在陈奕迅还不红的时候，林夕写过一首歌给他，叫《我的快乐时代》。当时的陈奕迅还不懂歌词里面的那一句： 毫无代价唱最幸福的歌，愿我可。 陈奕迅看不懂是什么意思。拿着歌词去问林夕，林夕说，你尽管唱，到后来你就懂了。 那个时候，陈奕迅不过还是刚刚出道的小歌手，林夕就从他身上看到了未来。
+
+13. **[Kriaaaaa \[56\]](https://music.163.com/#/user/home?id=440721983):** 果然和林夕所预料的那样，后来的陈奕迅虽然磕磕绊绊，但终究是势不可挡，一飞冲天。 在2008年，《我的快乐时代》这首歌推出了十年之后，陈奕迅在另一首歌《然后怎样》里面，终于给出了对于林夕的回应。 我的快乐时代唱烂，才领悟代价多高昂。
+
+14. **[MAYSEVENS \[28\]](https://music.163.com/#/user/home?id=503458344):** “你和他 然后怎样？”                                                        “没怎样 能怎样”
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

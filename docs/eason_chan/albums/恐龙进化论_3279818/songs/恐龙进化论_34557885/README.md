@@ -103,6 +103,31 @@
 
 ---
 
+## Comments
+0. **[池石镇out \[1633\]](https://music.163.com/#/user/home?id=59872009):** 恭喜进来的人发现一个宝藏
+
+1. **[特立独行的种猪 \[1303\]](https://music.163.com/#/user/home?id=56011501):** 我是内地人，我翻译一下《死开的啦》的意思啊。意思就是――奔跑吧，兄弟！
+
+2. **[恐龙进化论 \[855\]](https://music.163.com/#/user/home?id=91173224):** 看我ID
+
+3. **[日本王子 \[696\]](https://music.163.com/#/user/home?id=11851621):** 十年之前，人们在听Eason；十年之后，人们仍然在听Eason。[爱心][爱心][爱心]
+
+4. **[CHEN_JT \[356\]](https://music.163.com/#/user/home?id=59074567):** 快下载 万一要钱了呢？！
+
+5. **[LeeeeeeeQ \[281\]](https://music.163.com/#/user/home?id=41140230):** 每一首歌都有质量
+
+6. **[轻信称 \[220\]](https://music.163.com/#/user/home?id=68251707):** 陈奕迅一直是最爱的歌手
+
+7. **[cisnes \[175\]](https://music.163.com/#/user/home?id=33995144):** 感觉没有以前的质量了eason
+
+8. **[-泓森 \[136\]](https://music.163.com/#/user/home?id=75333293):** 我是第一个哦[可爱]
+
+9. **[朱碧宸1709 \[64\]](https://music.163.com/#/user/home?id=592572584):** 真羡慕你们听首歌都能写出这么好的评论，而我只能:卧槽、好听 、收藏……
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

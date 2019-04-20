@@ -67,6 +67,17 @@
 
 ---
 
+## Comments
+0. **[饿的胃疼的胃 \[76\]](https://music.163.com/#/user/home?id=62625176):** 这首歌eason的rap有点像阿姆的风格
+
+1. **[一千零一口新鲜 \[58\]](https://music.163.com/#/user/home?id=55554195):** 不容易啊 这个死胖子年轻时居然能记这么长的rap歌词
+
+2. **[Lzrjump \[52\]](https://music.163.com/#/user/home?id=20659966):** 最喜欢这个版本
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

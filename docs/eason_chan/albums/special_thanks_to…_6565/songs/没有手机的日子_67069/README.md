@@ -28,6 +28,15 @@
 
 ---
 
+## Comments
+0. **[邢凯奇 \[152\]](https://music.163.com/#/user/home?id=48608953):** 今天手机屏幕cei了，现在出野外住在村里，要过上一段没有手机的日子，别赞
+
+1. **[lazy-disco \[11\]](https://music.163.com/#/user/home?id=102364788):** 单押x16，隔句双押x4，eason有嘻哈
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

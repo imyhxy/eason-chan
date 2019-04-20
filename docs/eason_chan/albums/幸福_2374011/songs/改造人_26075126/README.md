@@ -46,6 +46,26 @@
 
 ---
 
+## Comments
+0. **[Makayla \[110\]](https://music.163.com/#/user/home?id=52135559):** 错了，广东人几乎都知道
+	* > **[奈菲-GCWEI](https://music.163.com/#/user/home?id=2401493):** 这是一首几乎不会有人找到的歌
+
+1. **[Super小肥迷 \[48\]](https://music.163.com/#/user/home?id=50263520):** 霆锋跟医生是好兄弟，霆锋结婚的时候医生给他唱的一首“最后今晚”[撇嘴]
+
+2. **[咩系正常 \[39\]](https://music.163.com/#/user/home?id=33666015):** 觉得谢霆锋的很好听！不过，是在我没有发现医生的之前！[大哭][大哭]
+
+3. **[乔321 \[35\]](https://music.163.com/#/user/home?id=3988634):** 听了多少陈奕迅，才能听到这首歌
+
+4. **[奈菲-GCWEI \[31\]](https://music.163.com/#/user/home?id=2401493):** 这是一首几乎不会有人找到的歌
+
+5. **[李伯伯要去当红军 \[24\]](https://music.163.com/#/user/home?id=9142241):** 陈写给谢的，也是谢Viva演唱会第一首
+
+6. **[xgpin \[15\]](https://music.163.com/#/user/home?id=76118649):** Eason作曲，爱！
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

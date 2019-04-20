@@ -41,6 +41,17 @@
 
 ---
 
+## Comments
+0. **[Jo__ \[84\]](https://music.163.com/#/user/home?id=44467784):** 就连走音和忘词都那么有feel[亲亲][亲亲]爱死老陈了[亲亲][亲亲]
+
+1. **[__double_m \[52\]](https://music.163.com/#/user/home?id=8931782):** 好想知道监制喺对面房喺咩样!!!!![大哭]
+
+2. **[萨莫来 \[41\]](https://music.163.com/#/user/home?id=45113414):** 最可爱的NG take，哈哈。
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

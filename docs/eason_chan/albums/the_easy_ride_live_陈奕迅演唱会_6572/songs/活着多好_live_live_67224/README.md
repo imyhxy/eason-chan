@@ -33,6 +33,16 @@
 
 ---
 
+## Comments
+0. **[不想说明只想反应 \[62\]](https://music.163.com/#/user/home?id=34553351):** 最演绎的版本应该是06的get a life了吧
+
+1. **[gxxstephen \[21\]](https://music.163.com/#/user/home?id=55899016):** get a life编曲更复杂，这般的钢琴独奏其实更符合这首歌的意境。
+	* > **[不想说明只想反应](https://music.163.com/#/user/home?id=34553351):** 最演绎的版本应该是06的get a life了吧
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

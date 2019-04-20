@@ -91,6 +91,17 @@
 
 ---
 
+## Comments
+0. **[JesusWithGun \[109\]](https://music.163.com/#/user/home?id=61481150):** 真怕这哥仨打起来
+
+1. **[会说话的人偶 \[22\]](https://music.163.com/#/user/home?id=76965187):** 《冲口而出》副歌部分古巨基陈奕迅的几次交接真是太有激情了。
+
+2. **[明-韵诗 \[15\]](https://music.163.com/#/user/home?id=35824492):** 基仔好棒[强][强]。
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

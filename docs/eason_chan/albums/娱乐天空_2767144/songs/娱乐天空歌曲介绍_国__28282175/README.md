@@ -28,6 +28,18 @@
 
 ---
 
+## Comments
+0. **[小北的秘密花园 \[183\]](https://music.163.com/#/user/home?id=131794562):** 这还叫捉急？！医生已经是我听过的普通话最溜的香港人之一了！！！
+	* > **[IllIlIIllIlIIll](https://music.163.com/#/user/home?id=114245198):** E神唱国语歌这么溜，为啥说普通话就捉急了呢
+
+1. **[我从未见过如此厚颜无耻之人 \[111\]](https://music.163.com/#/user/home?id=29320819):** 先婉儿着呗～[大哭]
+
+2. **[cold-enough \[27\]](https://music.163.com/#/user/home?id=319785480):** 大家好我系渣渣辉
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

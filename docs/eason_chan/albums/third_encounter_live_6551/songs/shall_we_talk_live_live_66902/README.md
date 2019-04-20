@@ -64,6 +64,20 @@
 
 ---
 
+## Comments
+0. **[唯爱Eason727 \[123\]](https://music.163.com/#/user/home?id=67180062):** 现在已经听不到他唱这首了
+
+1. **[何以生疏__ \[88\]](https://music.163.com/#/user/home?id=114390374):** 唱这首之前Eason对观众讲：“希望大家可知道这首歌的信息，希望人与人之间能够多点沟通，不要收买收买。”shall we talk，如果沉默太沉重别要轻轻带过。
+
+2. **[sonicken \[71\]](https://music.163.com/#/user/home?id=312438228):** 不是收买收买，广东话里面的“收埋”，意指不要把话藏在心里。
+	* > **[何以生疏__](https://music.163.com/#/user/home?id=114390374):** 唱这首之前Eason对观众讲：“希望大家可知道这首歌的信息，希望人与人之间能够多点沟通，不要收买收买。”shall we talk，如果沉默太沉重别要轻轻带过。
+
+3. **[Tigerhuu \[61\]](https://music.163.com/#/user/home?id=65073224):** 来听Eason当年无解的声音。
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

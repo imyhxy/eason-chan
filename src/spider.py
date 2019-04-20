@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+import base64
+import codecs
 import json
 import os
 import pickle
@@ -12,6 +14,8 @@ from urllib import request
 from urllib.error import URLError
 from urllib.request import Request
 
+import requests
+from Crypto.Cipher import AES
 from bs4 import BeautifulSoup
 
 CURR_FOLDER = os.path.dirname(__file__)
@@ -335,6 +339,7 @@ class Song(NetEase):
             self.time = time or json.loads(soup.find('script',
                                                      class_='application/ld+json').text)['pubDate'].split('T')[0]
             self.ric = Lyric(self.id)
+            self.comment = Comment(self.id)
 
     def to_json(self):
         return {
@@ -347,6 +352,7 @@ class Song(NetEase):
             'singers': self.singers,
             'duration': self.duration,
             'ric': self.ric.to_json(),
+            'comm': self.comment.to_json()
         }
 
     def _build_song(self, album_root):
@@ -392,13 +398,27 @@ class Song(NetEase):
                     flag = True
 
             f.write('\n\n---\n\n')
+            f.write('## Comments\n')
+
+            for idx, c in enumerate(self.comment.cons):
+                f.write('{:d}. **[{:s} \\[{:d}\\]]({:s}):** {:s}\n'.format(
+                    idx, c.user.name, c.liked_cnt, c.user.url, c.content.replace('\n', ' ')
+                ))
+
+                if isinstance(c.replied, Reply):
+                    f.write('\t* > **[{:s}]({:s}):** {:s}\n\n'.format(
+                        c.replied.user.name, c.replied.user.url, c.replied.content.replace('\n', ' ')
+                    ))
+                else:
+                    f.write('\n')
+
+            f.write('\n\n---\n\n')
             f.write('## Appendix\n\n')
             f.write('|歌名|分数|时长|时间|\n')
             f.write('|:---|:---:|---:|---:|\n')
             f.write(f'|{self.name}|{self.score}|{self.elapse}|{self.time}\n\n')
 
             f.write('*modified: {:s}*'.format(str(self.ric.modified)))
-
 
     @property
     def elapse(self):
@@ -417,6 +437,7 @@ class Song(NetEase):
         so.album = json_con['album']
         so.time = json_con['time']
         so.ric = Lyric.from_json(json_con['ric'])
+        so.comment = Comment.from_json(json_con['comm'])
 
         return so
 
@@ -497,6 +518,160 @@ class Lyric(NetEase):
         pprint(self.lyric)
 
 
+class Comment(NetEase):
+    modulus = '00e0b509f6259df8642dbc35662901477df22677ec152b5ff68ace615bb7b725152b3ab17a876aea8a5aa76d2e417629ec4ee341f56135fccf695280104e0312ecbda92557c93870114af6c9d05c4f7f0c3685b7a46bee255932575cce10b424d813cfe4875d3e82047b97ddef52741d546b8e289dc6935b3ece0462db0a22b8e7'
+    nonce = '0CoJUm6Qyw8W8jud'
+    pub_key = '010001'
+
+    def __init__(self, song_id, eager=True, update=False):
+        self.id = song_id
+        self.url = 'http://music.163.com/weapi/v1/resource/comments/' \
+                   'R_SO_4_{:d}?csrf_token='.format(song_id)
+        cached_file = self._to_filename(self.url)
+        cached_path = os.path.join(CURR_FOLDER, 'cached', cached_file + '_{:d}'.format(self.id) + '.json')
+
+        self.cons = []
+
+        if eager:
+            if os.path.exists(cached_path) and not update:
+                with open(cached_path) as f:
+                    r_dict = json.load(f)
+            else:
+                text = {
+                    'username': '',
+                    'password': '',
+                    'rememberLogin': 'true',
+                    'offset': 0
+                }
+                payload = self.get_params(text)
+                json_str = requests.post(self.url, data=payload, headers=self.head)
+                r_dict = json.loads(json_str.text)
+
+                with open(cached_path, 'w') as f:
+                    json.dump(r_dict, f, indent=4)
+
+            for com in r_dict['hotComments']:
+                self.cons.append(Comm(com))
+
+            self.total = r_dict['total']
+
+        self.num_coms = len(self.cons)
+
+    def to_json(self):
+        return {
+            'id': self.id,
+            'url': self.url,
+            'con': [c.to_json() for c in self.cons],
+            'total': self.total,
+            'num_coms': self.num_coms
+        }
+
+    @classmethod
+    def from_json(cls, json_con):
+        comment = cls(0, eager=False)
+        comment.id = json_con['id']
+        comment.url = json_con['url']
+        comment.total = json_con['total']
+        comment.num_coms = json_con['num_coms']
+        comment.cons = [Comm.from_json(c) for c in json_con['con']]
+
+    def create_secret_key(self, size):
+        return (''.join(map(lambda xx: (hex(ord(xx))[2:]), str(os.urandom(size)))))[0:16]
+
+    def aes_encrypt(self, text, sec_key):
+        pad = 16 - len(text) % 16
+        if isinstance(text, bytes):
+            text = text.decode('utf-8')
+        text = text + str(pad * chr(pad))
+        encryptor = AES.new(sec_key, 2, '0102030405060708')
+        ciphertext = encryptor.encrypt(text)
+        ciphertext = base64.b64encode(ciphertext)
+        return ciphertext
+
+    def rsa_encrypt(self, text, pub_key, modulus):
+        text = text[::-1]
+        rs = int(codecs.encode(text.encode('utf-8'), 'hex_codec'),
+                 16) ** int(pub_key, 16) % int(modulus, 16)
+        return format(rs, 'x').zfill(256)
+
+    def get_params(self, param_dict):
+        json_dict = json.dumps(param_dict)
+        sec_key = self.create_secret_key(16)
+        enc_text = self.aes_encrypt(self.aes_encrypt(json_dict, self.nonce), sec_key)
+        enc_sec_key = self.rsa_encrypt(sec_key, self.pub_key, self.modulus)
+
+        payload = {
+            'params': enc_text,
+            'encSecKey': enc_sec_key
+        }
+
+        return payload
+
+
+class Comm(object):
+    def __init__(self, c):
+        self.id = c['commentId']
+        self.user = User(c['user'])
+        self.content = c['content']
+        self.liked_cnt = c['likedCount']
+
+        if c['beReplied']:
+            self.replied = Reply(c['beReplied'][0])
+        else:
+            self.replied = ''
+
+    def to_json(self):
+        return {
+            'commentId': self.id,
+            'user': self.user,
+            'content': self.content,
+            'likedCount': self.liked_cnt,
+            'beReplied': self.replied.to_json() if isinstance(self.replied, Reply) else ''
+        }
+
+    @classmethod
+    def from_json(cls, json_con):
+        return cls(json_con)
+
+
+class User(object):
+    def __init__(self, user_dict):
+        self.id = user_dict['userId']
+        self.name = user_dict['nickname']
+
+    @property
+    def url(self):
+        return 'https://music.163.com/#/user/home?id={:d}'.format(self.id)
+
+    def to_json(self):
+        return {
+            'userId': self.id,
+            'nickname': self.name
+        }
+
+    @classmethod
+    def from_json(cls, json_con):
+        return cls(json_con)
+
+
+class Reply(object):
+    def __init__(self, r):
+        self.id = r['beRepliedCommentId']
+        self.content = r['content']
+        self.user = User(r['user'])
+
+    def to_json(self):
+        return {
+            'beRepliedCommentId': self.id,
+            'content': self.content,
+            'user': self.user.to_json()
+        }
+
+    @classmethod
+    def from_json(cls, json_con):
+        return cls(json_con)
+
+
 def self_check(con):
     for key, val in con.items():
         if isinstance(val, dict):
@@ -508,7 +683,8 @@ def self_check(con):
         elif isinstance(val, bytes):
             print(key)
 
-def main(singer_id, fetch=True, build_doc=True):
+
+def main(singer_id, fetch=True, update=False, build_doc=True):
     if not fetch:
         assert os.path.exists(os.path.join(CURR_FOLDER, 'json_src', str(singer_id) + '.json'))
 
@@ -518,8 +694,9 @@ def main(singer_id, fetch=True, build_doc=True):
 
     if fetch:
         singer = Singer(singer_id)
-        with open(os.path.join(json_src, f'{singer_id}.json'), 'w') as fp:
-            json.dump(singer.to_json(), fp, indent=4, sort_keys=True)
+        if update:
+            with open(os.path.join(json_src, f'{singer_id}.json'), 'w') as fp:
+                json.dump(singer.to_json(), fp, indent=4, sort_keys=True)
     else:
         with open(os.path.join(CURR_FOLDER, 'json_src', str(singer_id) + '.json')) as f:
             json_con = json.load(f)
@@ -528,8 +705,6 @@ def main(singer_id, fetch=True, build_doc=True):
         singer.build_doc()
 
 
-
 if __name__ == '__main__':
     singer_id = 2116  # eason chan
-    main(singer_id, fetch=False)
-
+    main(singer_id, fetch=True, update=False)

@@ -53,6 +53,17 @@
 
 ---
 
+## Comments
+0. **[没事儿来一杯 \[187\]](https://music.163.com/#/user/home?id=57834807):** 林夕领进门，皈依黄伟文😈
+
+1. **[de_faakinliph \[160\]](https://music.163.com/#/user/home?id=47579060):** 这首歌当年听的时候就很有感觉，压抑的爆发，狂气的控诉，无奈的自嘲，苦楚的激情，不知道为什么这首歌没红。
+
+2. **[紆崽man \[74\]](https://music.163.com/#/user/home?id=49227389):** 的确是staring at sun 和last night on earth.......不过将两首歌好听的部分合在一起了[鬼脸]这样能说是抄袭么。。无法判断。。
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

@@ -26,6 +26,23 @@
 
 ---
 
+## Comments
+0. **[LinkitLoo \[165\]](https://music.163.com/#/user/home?id=9873196):** 对我来说，再挖点 Eason 的好歌已经很难了，此首不可多得。
+
+1. **[theraCarol \[108\]](https://music.163.com/#/user/home?id=135953269):** Eason隐藏的好歌，会慢慢的变成999+。珍惜现在的评论90[爱心][爱心]
+
+2. **[少女陳荒 \[86\]](https://music.163.com/#/user/home?id=87131903):** 喜欢他 什么歌都会知道的 而不是烂大街的一两首
+
+3. **[张开手好吗 \[63\]](https://music.163.com/#/user/home?id=114249163):** 知道这首歌的，可见有多深爱eason
+
+4. **[纯李发发发 \[39\]](https://music.163.com/#/user/home?id=9204832):** hey！这边的天气渐回暖，而你可否开心似我所愿。
+
+5. **[DJ猪红 \[36\]](https://music.163.com/#/user/home?id=265228):** 《我不是好人》第三集⋯
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

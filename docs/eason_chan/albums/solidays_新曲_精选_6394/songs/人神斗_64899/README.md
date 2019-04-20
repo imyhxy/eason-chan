@@ -36,6 +36,14 @@
 
 ---
 
+## Comments
+0. **[SmilingMonster \[158\]](https://music.163.com/#/user/home?id=269657625):** 听冷门不是铁粉的标志，听陈奕迅不是成熟的标志，不能衡定的
+	* > **[blk_lin](https://music.163.com/#/user/home?id=251020708):** 每首冷门歌我都听，我是铁粉么
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

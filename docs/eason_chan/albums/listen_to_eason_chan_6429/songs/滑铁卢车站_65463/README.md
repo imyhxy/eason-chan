@@ -35,6 +35,23 @@
 
 ---
 
+## Comments
+0. **[上帝的眼药水 \[210\]](https://music.163.com/#/user/home?id=20585624):** 这只是eason百个爆好听冷门歌的其中
+
+1. **[骑着老虎看日落 \[133\]](https://music.163.com/#/user/home?id=33891581):** eason的粤语歌比国语歌来的更随性
+
+2. **[失忆花猫 \[74\]](https://music.163.com/#/user/home?id=16128591):** 耐心听，很有味道的歌。
+
+3. **[南风慢 \[73\]](https://music.163.com/#/user/home?id=246499310):** 年纪小一点的时候只喜欢听Eason的慢歌，年纪大一些再扫歌就发现Eason快歌里有更大更奇妙的世界。
+
+4. **[作侍臣 \[64\]](https://music.163.com/#/user/home?id=81636453):** 所谓的冷门好歌 值得推荐
+
+5. **[Aguardiente \[58\]](https://music.163.com/#/user/home?id=16470246):** 原来Eason的歌评论也会这么少
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

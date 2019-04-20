@@ -53,6 +53,21 @@
 
 ---
 
+## Comments
+0. **[帐号已注销 \[118\]](https://music.163.com/#/user/home?id=560211):** 只有陈奂仁这个来自火星的异类天才才能写出这么酣畅淋漓的歌曲吧，劲！！
+
+1. **[Chor_z \[76\]](https://music.163.com/#/user/home?id=33484059):** 室友一整个学期没事就嚎两句简直是神洗脑
+
+2. **[EC家长指引 \[72\]](https://music.163.com/#/user/home?id=39353806):** 其实之前没觉得这歌多难,直到听见别人翻唱…
+
+3. **[LifeLineG \[49\]](https://music.163.com/#/user/home?id=48533246):** 感觉这首歌rap才是精髓
+
+4. **[HHH太太 \[49\]](https://music.163.com/#/user/home?id=38501938):** e神～实力百变唱风
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

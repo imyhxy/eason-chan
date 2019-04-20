@@ -31,6 +31,13 @@
 
 ---
 
+## Comments
+0. **[臧棣 \[13\]](https://music.163.com/#/user/home?id=75484674):** 信自己我地一定要做得好唔好，明哥come on，明哥哥明哥哥come on林夕come on ,好怕醜呀我覺得。……I believe林振強
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

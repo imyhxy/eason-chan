@@ -54,6 +54,15 @@
 
 ---
 
+## Comments
+0. **[Guitar遇见非洲鼓 \[53\]](https://music.163.com/#/user/home?id=10800823):** 叶倩文指着Eason说矮！还带着全场观众一起对着Eason说矮！矮！矮！就他自己不知道
+
+1. **[扑puss \[47\]](https://music.163.com/#/user/home?id=45198890):** 感觉eason驾驭不了叶倩文[大哭]
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

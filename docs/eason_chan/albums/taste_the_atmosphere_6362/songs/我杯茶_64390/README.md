@@ -43,6 +43,32 @@
 
 ---
 
+## Comments
+0. **[wyy_kdnxj894649138 \[848\]](https://music.163.com/#/user/home?id=70172875):** 我打的是我杯茶..........输入法提示的是我被插  _(:3 」∠)_ die...
+
+1. **[我比超侠还帅 \[415\]](https://music.163.com/#/user/home?id=76964525):** 浮夸里好像有一句 你非我杯茶，也可尽情的喝吧。
+
+2. **[988安柯 \[286\]](https://music.163.com/#/user/home?id=360038):** 我杯茶，用普通话翻译就是我的菜，一首阳光跃动的骚版粤语歌
+
+3. **[贫下中农王熊猫 \[256\]](https://music.163.com/#/user/home?id=7084498):** 金曲奖串烧唱到  他不爱我 的时候，莫文蔚脸上的开心啧啧，看着真是美啊美。[大笑] 未来多合作几次就好了。
+
+4. **[froglee \[222\]](https://music.163.com/#/user/home?id=56978956):** 我莫打得一手好酱油。
+
+5. **[要快点振作噢 \[217\]](https://music.163.com/#/user/home?id=41969482):** 我杯茶 是另一半的意思 源自维多利亚时代 a cup of tea 表示喜欢的东西 例如 u r my cup of tea.  卖飞佛纯粹就是my favorite 音译
+	* > **[120的火箭](https://music.163.com/#/user/home?id=90685276):** 哪位大神知道歌词里我杯茶，卖飞佛是什么意思
+
+6. **[omeng \[131\]](https://music.163.com/#/user/home?id=50927128):** 我非你杯茶，也可尽情喝。
+
+7. **[帐号已注销 \[89\]](https://music.163.com/#/user/home?id=61365838):** 期望大家 未来光景无暇 
+
+8. **[juex \[75\]](https://music.163.com/#/user/home?id=95416991):** 期望大家 未来光景无暇。
+
+9. **[dreammomi \[66\]](https://music.163.com/#/user/home?id=42793381):** 港味十足 很棒
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

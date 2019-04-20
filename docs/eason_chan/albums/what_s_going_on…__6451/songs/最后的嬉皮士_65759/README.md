@@ -71,6 +71,17 @@
 
 ---
 
+## Comments
+0. **[1siyinyue \[392\]](https://music.163.com/#/user/home?id=42907169):** 陈奕迅，做最后的嬉皮士吧，我是你的观众，，，
+
+1. **[shuzhangchina \[158\]](https://music.163.com/#/user/home?id=50779055):** 作曲作词反了。。。@云音乐小秘书 @丁磊 
+
+2. **[Lenkey07 \[120\]](https://music.163.com/#/user/home?id=57427982):** 我喜欢这首歌啊= =怎么毁了你的嬉皮士了
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

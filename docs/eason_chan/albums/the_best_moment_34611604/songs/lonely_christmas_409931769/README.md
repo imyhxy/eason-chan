@@ -66,6 +66,17 @@
 
 ---
 
+## Comments
+0. **[飞翔的malagia \[52\]](https://music.163.com/#/user/home?id=294860737):** 穷人版Lonely  Christmas
+
+1. **[Se_xy \[15\]](https://music.163.com/#/user/home?id=450153698):** 这个封面比绿色的好看    就你了哈哈[奸笑]
+
+2. **[一只甜甜圈呐 \[12\]](https://music.163.com/#/user/home?id=119328517):** 你永远也叫不醒一个在装睡的人  ，从头至尾 也只是你一个人在自作多情    独自沉沦[哀伤]
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

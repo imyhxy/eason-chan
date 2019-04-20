@@ -35,6 +35,19 @@
 
 ---
 
+## Comments
+0. **[汪_呜_汪 \[139\]](https://music.163.com/#/user/home?id=117838433):** 只要有人在我是歌手上唱这首歌，一天内绝对999+
+
+1. **[YYYUUUUUUUUUUUN \[50\]](https://music.163.com/#/user/home?id=290924539):** 我的网易分两种民谣和陈奕迅。
+
+2. **[一首好Ting的 \[32\]](https://music.163.com/#/user/home?id=450722797):** 这么多年过去了，仍然不知道苦荣究竟是谁。
+
+3. **[与时间对峙Y \[17\]](https://music.163.com/#/user/home?id=405614556):** 天黑透了陪我一起回家
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

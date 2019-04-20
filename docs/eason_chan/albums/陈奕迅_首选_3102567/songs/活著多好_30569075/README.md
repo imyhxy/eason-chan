@@ -34,6 +34,15 @@
 
 ---
 
+## Comments
+0. **[帐户已注销 \[119\]](https://music.163.com/#/user/home?id=57496610):** 我的丧礼会播这首歌
+
+1. **[DanteYang \[34\]](https://music.163.com/#/user/home?id=47785580):** 大概抑郁症患者最会讲笑话
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

@@ -62,6 +62,19 @@
 
 ---
 
+## Comments
+0. **[不天生喜欢 \[154\]](https://music.163.com/#/user/home?id=137614023):** shall we dance 跟shall we talk 其实是很耐听的两首歌 一静一动 很符合气氛 也作为专辑名 但是只是慢歌火了 为毛？
+
+1. **[昊昊昊昊哇咔咔 \[134\]](https://music.163.com/#/user/home?id=270891643):** 这歌你不听还配当医生的病人？
+
+2. **[叁仁c \[16\]](https://music.163.com/#/user/home?id=350678887):** 19年的愿望就是看一场Eason的演唱会啊～
+
+3. **[霸道总裁喜羊羊 \[14\]](https://music.163.com/#/user/home?id=1415233679):** get a life这整场演唱会的歌都很惊艳
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

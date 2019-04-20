@@ -67,6 +67,17 @@
 
 ---
 
+## Comments
+0. **[rio_bomb \[32\]](https://music.163.com/#/user/home?id=75763237):** 真是唱进心了
+
+1. **[在冬天听雨 \[29\]](https://music.163.com/#/user/home?id=47661369):** 网易有毒，Eason有毒，下午三点到现在十点半，刚吃了一份炒面~[大哭]多么痛的领悟[晕]
+
+2. **[slulu2 \[24\]](https://music.163.com/#/user/home?id=53877667):** eason这首歌感觉有不少学友的感觉呢[呆]
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

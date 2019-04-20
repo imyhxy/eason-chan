@@ -46,6 +46,19 @@
 
 ---
 
+## Comments
+0. **[Katrina是土环星上的白日梦想家 \[216\]](https://music.163.com/#/user/home?id=252923574):** 哥哥的劲歌唱得这么慵懒，也很有味道，只是心中一直在想快进快进[大哭]
+
+1. **[乱七八糟的狗 \[141\]](https://music.163.com/#/user/home?id=304485897):** eason这首翻唱的真的惊艳到我了  哥哥听到一定会很开心的  当年让他少抽烟是对的
+
+2. **[由番茄讲到北美洲z \[60\]](https://music.163.com/#/user/home?id=287393579):** Eason在和哥哥比懒[亲亲]
+
+3. **[WuSzeKei \[40\]](https://music.163.com/#/user/home?id=48851245):** 啊啊啊eason和leslie[色]两个最喜欢的男人[亲亲]
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

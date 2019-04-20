@@ -67,6 +67,31 @@
 
 ---
 
+## Comments
+0. **[Ralphooo \[187\]](https://music.163.com/#/user/home?id=1769488):**  th i s is m y favorite song of Eason
+
+1. **[背了个影 \[136\]](https://music.163.com/#/user/home?id=26852587):** 听歌，写下自己的情绪，然后某年某月某日，突然有人评论了，赞了，那种沉沦的存在感，一下子就闪亮了 。[大哭]
+
+2. **[长冬梦旅人 \[105\]](https://music.163.com/#/user/home?id=82183748):** 陈奕迅的特别小众却又非常好听的歌
+
+3. **[树袋熊Cathie \[47\]](https://music.163.com/#/user/home?id=86265833):** 这首竟然没有999，不开森
+
+4. **[manlungLam \[39\]](https://music.163.com/#/user/home?id=52633343):** 前奏真的好像韩泰轮胎 然后古天乐出来说普通话…
+
+5. **[KingsleyMoon \[35\]](https://music.163.com/#/user/home?id=35170859):** 这一分钟，只需好好拥抱！
+
+6. **[跃无止进 \[15\]](https://music.163.com/#/user/home?id=52912081):** 每次KTV必唱，并且从来都是第一首
+
+7. **[我音我了 \[10\]](https://music.163.com/#/user/home?id=59860258):** 你叫我最渴望，你也叫我猜中
+
+8. **[進擊的卷毛 \[10\]](https://music.163.com/#/user/home?id=38663447):** 喜欢的女生给我听的一首歌。
+
+9. **[ilevm \[10\]](https://music.163.com/#/user/home?id=82979772):** 赞赞赞[色]又见遗珠系列
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|

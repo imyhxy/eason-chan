@@ -70,6 +70,21 @@
 
 ---
 
+## Comments
+0. **[fgv7675 \[181\]](https://music.163.com/#/user/home?id=62077684):** 我记得高三，到家。我妈给我买了好多提子，洗好了放在桌子上，我边听这首歌边吃。现在，我在离家1532公里的重庆，还是这首歌，还是提子，却是我自己洗的。真的好想家，好想我妈。
+
+1. **[ifEason \[45\]](https://music.163.com/#/user/home?id=418697937):** 我们最后何以生疏[哀伤]
+
+2. **[Nosta1g1a \[18\]](https://music.163.com/#/user/home?id=114099944):** 应该有另一个版本99999+
+
+3. **[123告别娑婆 \[11\]](https://music.163.com/#/user/home?id=426847225):** 陪我讲陪我讲陪我讲出我们最后何以生疏shall we talk shall we talk shall we talk谁怕讲谁怕讲谁怕讲谁会可悲得过孤独探戈
+
+4. **[All-Glad \[10\]](https://music.163.com/#/user/home?id=545452644):** 若沉默似金还谈什么恋爱
+
+
+
+---
+
 ## Appendix
 
 |歌名|分数|时长|时间|
